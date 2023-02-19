@@ -30,7 +30,7 @@
 #pip install tweepy==4.9.0
 import tweepy
 import json
-import secrets
+import BEMO_secrets as secrets
 # Authenticate with Twitter OAuth 1.0a User Context
 auth = tweepy.OAuth1UserHandler(
    secrets.TWITTER_APIKEY,                                           # API / Consumer Key here

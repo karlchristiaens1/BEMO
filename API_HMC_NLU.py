@@ -1,4 +1,4 @@
-import secrets
+import BEMO_secrets as secrets
 
 def API_HMC_NLU_api_call(sentence):
     import json

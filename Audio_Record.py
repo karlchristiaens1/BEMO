@@ -1,16 +1,16 @@
 def audio_rec(wav_output_filename):
     import pyaudio 
     import wave
-    import robotic_behaviour_LED as rbLED
+    #import robotic_behaviour_LED as rbLED
 
-    rbLED.Thread_BLINK_LED()
+    #rbLED.Thread_BLINK_LED()
     # Setting initial parameters and sampling settings
     form_1 = pyaudio.paInt16 # 16-bit resolution
     chans = 1 # 1 channel
     samp_rate = 44100 # 44.1kHz sampling rate
     chunk = 4096 # 2^12 samples for buffer
     record_secs = 8 # seconds to record
-    dev_index = 1 # device index found by p.get_device_info_by_index(ii)
+    dev_index = 2 # device index found by p.get_device_info_by_index(ii)
     # wav_output_filename = 'test1.wav' # name of .wav file
 
 
@@ -109,7 +109,7 @@ def audio_settings():
     
     # Get all audio devicess
     for i in range(p.get_device_count()):
-        print(p.get_device_info_by_index(1).get('name'))
+        print(p.get_device_info_by_index(2).get('name'))
 
     # Get the sample rate and the number of channels that the selected device supports
     sample_rate = (p.get_device_info_by_host_api_device_index(0, 2).get('defaultSampleRate'))
@@ -118,4 +118,5 @@ def audio_settings():
     print('Input device sample rate is ', sample_rate)
     print('Input device channels is ', device_channels)
 
-# audio_settings()
+#audio_settings()
+#audio_rec('testing_audio.wav')

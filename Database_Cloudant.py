@@ -8,7 +8,7 @@
 #     "url": "https://bd4526e8-bde9-48ba-9d66-518274b7d624-bluemix.cloudantnosqldb.appdomain.cloud",
 #     "username": "bd4526e8-bde9-48ba-9d66-518274b7d624-bluemix"
 #     }
-import secrets
+import BEMO_secrets as secrets
 
     # # Deleting the database.
     # try :

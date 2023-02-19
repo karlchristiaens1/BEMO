@@ -1,4 +1,4 @@
-import secrets
+import BEMO_secrets as secrets
 def api_call(text, filename):
     import json
     from ibm_watson import TextToSpeechV1

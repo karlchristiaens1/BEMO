@@ -1,5 +1,5 @@
 import xml.sax
-import secrets
+import BEMO_secrets as secrets
 
 def convert_link_to_file(url):
     import requests
@@ -80,7 +80,9 @@ def get_podcast_XML():
 
 def call_listen_notes(keyword): #Takes a user keyword, returns a list of matching podcasts
     import json
-    from listennotes import podcast_api 
+    from listennotes import podcast_api
+    #import podcast_api
+    
     # 'https://listen-api.listennotes.com/api/v2/best_podcasts'
     # api_key = '6bbf591134cf4c7b82e66f9ca08d476c'
 
@@ -116,7 +118,7 @@ def tts_data_prep(data):
 
 
 # For Testing Purposes:
-# call_listen_notes('star wars')
+call_listen_notes('star wars')
 # print(tts_data_prep(call_listen_notes('rubies')))
 
 

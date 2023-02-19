@@ -1,5 +1,5 @@
 import json
-import secrets
+import BEMO_secrets as secrets
 
 def get_time_today():
     # importing datetime module

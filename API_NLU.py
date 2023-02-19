@@ -1,4 +1,4 @@
-import secrets
+import BEMO_secrets as secrets
 def NLU(sentence):
     import json
     import pandas as pd 

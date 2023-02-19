@@ -1,4 +1,4 @@
-import secrets
+import BEMO_secrets as secrets
 import os
 import openai
 # openai.organization = "org-javOUWiqkB5qT2jNnJifFEVE"
