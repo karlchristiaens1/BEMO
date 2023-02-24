@@ -117,7 +117,7 @@ def action_call(action):
         print(possibleActions[5])
         # Call text-to-speech(spoken) service
         spoken = 'Could you now tell me the keywords of the topic of the podcast you would like to listen to'
-        tts.api_call(spoken, bemo_path+'command_play_podcast.wav')
+        #tts.api_call(spoken, bemo_path+'command_play_podcast.wav')
         arec.audio_play2(bemo_path + 'command_play_podcast.wav')
         
         #Call Audio Recording Program
@@ -141,22 +141,23 @@ def action_call(action):
 
         #Call Speech to text Program
         pod_choice = stt.main('command_rec_play_podcast_2.wav')
-        print("Choose Podcast: .", pod_choice)
+        print("Choosen Podcast: .", pod_choice)
         #Error Handling necessary & Function necessary to convert into integer then used for playing podcast
 
-        #Playing Audio - "Fetching your podcast"        
+        #Playing Audio - "Fetching your podcast"
+        tts.api_call('Fetching your podcast', bemo_path + 'command_play_podcast_4.wav')
         arec.audio_play2(bemo_path + 'command_play_podcast_4.wav')
 
         accepted_strings_1 = {'one', 'first'}
         accepted_strings_2 = {'two', 'second'}
         accepted_strings_3 = {'three', 'third'}
-        accepted_strings_4 = {'four', 'fourth'}
-        accepted_strings_5 = {'five', 'fifth'}
-        accepted_strings_6 = {'six', 'sixth'}
-        accepted_strings_7 = {'seven', 'seventh'}
-        accepted_strings_8 = {'eight', 'eight'}
-        accepted_strings_9 = {'nine', 'nineth'}
-        accepted_strings_10 = {'ten', 'tenth'}
+        #accepted_strings_4 = {'four', 'fourth'}
+        #accepted_strings_5 = {'five', 'fifth'}
+        #accepted_strings_6 = {'six', 'sixth'}
+        #accepted_strings_7 = {'seven', 'seventh'}
+        #accepted_strings_8 = {'eight', 'eight'}
+        #accepted_strings_9 = {'nine', 'nineth'}
+        #accepted_strings_10 = {'ten', 'tenth'}
 
         # if pod_choice in accepted_strings_1:
         #     apipodcast.convert_link_to_file(podcast_dict[0]['url'])
@@ -193,51 +194,51 @@ def action_call(action):
         
         #I could make a function for this redundant code!
         if get_pod_choice(pod_choice, accepted_strings_1):
-            playing_podcast_file(0)
+            playing_podcast_file(0, podcast_dict)
             #apipodcast.convert_link_to_file(podcast_dict[0]['url'])
             #arec.audio_play2('OneDrive - University College London/ELEC0036/IBM Project/Code/command_play_podcast_3.wav')
             #arec.audio_play('OneDrive - University College London/ELEC0036/IBM Project/Code/podcast.mp3')
         elif get_pod_choice(pod_choice, accepted_strings_2):
-            playing_podcast_file(1)
+            playing_podcast_file(1, podcast_dict)
             #apipodcast.convert_link_to_file(podcast_dict[1]['url'])
             #arec.audio_play2('OneDrive - University College London/ELEC0036/IBM Project/Code/command_play_podcast_3.wav')
             #arec.audio_play('OneDrive - University College London/ELEC0036/IBM Project/Code/podcast.mp3')
         elif get_pod_choice(pod_choice, accepted_strings_3):
-            playing_podcast_file(2)
+            playing_podcast_file(2, podcast_dict)
             #apipodcast.convert_link_to_file(podcast_dict[2]['url'])
             #arec.audio_play2('OneDrive - University College London/ELEC0036/IBM Project/Code/command_play_podcast_3.wav')
             #arec.audio_play('OneDrive - University College London/ELEC0036/IBM Project/Code/podcast.mp3')
-        elif get_pod_choice(pod_choice, accepted_strings_4):
-            playing_podcast_file(3)
+        #elif get_pod_choice(pod_choice, accepted_strings_4):
+            #playing_podcast_file(3)
             #apipodcast.convert_link_to_file(podcast_dict[3]['url'])
             #arec.audio_play2('OneDrive - University College London/ELEC0036/IBM Project/Code/command_play_podcast_3.wav')
             #arec.audio_play('OneDrive - University College London/ELEC0036/IBM Project/Code/podcast.mp3')
-        elif get_pod_choice(pod_choice, accepted_strings_5):
-            playing_podcast_file(4)
+        #elif get_pod_choice(pod_choice, accepted_strings_5):
+            #playing_podcast_file(4)
             #apipodcast.convert_link_to_file(podcast_dict[4]['url'])
             #arec.audio_play2('OneDrive - University College London/ELEC0036/IBM Project/Code/command_play_podcast_3.wav')
             #arec.audio_play('OneDrive - University College London/ELEC0036/IBM Project/Code/podcast.mp3')
-        elif get_pod_choice(pod_choice, accepted_strings_6):
-            playing_podcast_file(5)
+        #elif get_pod_choice(pod_choice, accepted_strings_6):
+            #playing_podcast_file(5)
             #apipodcast.convert_link_to_file(podcast_dict[5]['url'])
             #arec.audio_play2('OneDrive - University College London/ELEC0036/IBM Project/Code/command_play_podcast_3.wav')
             #arec.audio_play('OneDrive - University College London/ELEC0036/IBM Project/Code/podcast.mp3')
-        elif get_pod_choice(pod_choice, accepted_strings_7):
-            playing_podcast_file(6)
+        #elif get_pod_choice(pod_choice, accepted_strings_7):
+            #playing_podcast_file(6)
             #apipodcast.convert_link_to_file(podcast_dict[6]['url'])
             #arec.audio_play2('OneDrive - University College London/ELEC0036/IBM Project/Code/command_play_podcast_3.wav')
             #arec.audio_play('OneDrive - University College London/ELEC0036/IBM Project/Code/podcast.mp3')
-        elif get_pod_choice(pod_choice, accepted_strings_8):
-            playing_podcast_file(7)           #apipodcast.convert_link_to_file(podcast_dict[7]['url'])
+        #elif get_pod_choice(pod_choice, accepted_strings_8):
+            #playing_podcast_file(7)           #apipodcast.convert_link_to_file(podcast_dict[7]['url'])
             #arec.audio_play2('OneDrive - University College London/ELEC0036/IBM Project/Code/command_play_podcast_3.wav')
             #arec.audio_play('OneDrive - University College London/ELEC0036/IBM Project/Code/podcast.mp3')
-        elif get_pod_choice(pod_choice, accepted_strings_9):
-            playing_podcast_file(8)
+        #elif #get_pod_choice(pod_choice, accepted_strings_9):
+            #playing_podcast_file(8)
             #apipodcast.convert_link_to_file(podcast_dict[8]['url'])
             #arec.audio_play2('OneDrive - University College London/ELEC0036/IBM Project/Code/command_play_podcast_3.wav')
             #arec.audio_play('OneDrive - University College London/ELEC0036/IBM Project/Code/podcast.mp3')
-        elif get_pod_choice(pod_choice, accepted_strings_10):
-            playing_podcast_file(9)
+        #elif get_pod_choice(pod_choice, accepted_strings_10):
+            #playing_podcast_file(9)
             #apipodcast.convert_link_to_file(podcast_dict[9]['url'])
             #arec.audio_play2('OneDrive - University College London/ELEC0036/IBM Project/Code/command_play_podcast_3.wav')
             #arec.audio_play('OneDrive - University College London/ELEC0036/IBM Project/Code/podcast.mp3')
@@ -252,9 +253,9 @@ def get_pod_choice(string_a, string_list):
             return True
     return False
 
-def playing_podcast_file(i):
+def playing_podcast_file(i, podcast_dict):
     apipodcast.convert_link_to_file(podcast_dict[i]['url'])
-    arec.audio_play2(bemo_path+'command_play_podcast_3.wav')
+    #arec.audio_play2(bemo_path+'command_play_podcast_3.wav')
     arec.audio_play(bemo_path+'podcast.mp3')
 
 def main():
