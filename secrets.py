@@ -3,6 +3,7 @@
 #IBM
 IBM_NLU_APIKEY = "6UV4rJoH0dFoqjUErdw1IjZ3p_iC2Zy6DUVY8R6BGoV5"
 IBM_HMC_NLU_APIKEY = "YTVOZOCj3uvwETFIWluGVasiXVcz7_kXSnXGLlyEE_le"
+IBM_HMC_NLU_MODELID = "965f2dfa-3fdf-4584-a2c4-8c009544380c"
 IBM_CLOUDANT_CRED = {
     "apikey": "Yavn5ukfgf1_0HHLsqJLDvunLSwsEuYp_-tymc3JhamA",
     "host": "bd4526e8-bde9-48ba-9d66-518274b7d624-bluemix.cloudantnosqldb.appdomain.cloud",
