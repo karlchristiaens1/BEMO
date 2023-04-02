@@ -1,5 +1,5 @@
 import json
-import secrets
+import BEMO_secrets as secrets
 
 def get_time_today():
     # importing datetime module
@@ -12,7 +12,7 @@ def get_time_today():
 def get_time_last_month():
     # importing datetime module
     import datetime
-    Previous_Date = datetime.datetime.today() - datetime.timedelta(days=30)
+    Previous_Date = datetime.datetime.today() - datetime.timedelta(days=21)
     Previous_Date_Formatted = Previous_Date.strftime ('%Y-%m-%d') # format the date to ddmmyyyy
     # print ('Previous Date: ' + str(Previous_Date_Formatted))
     return Previous_Date_Formatted
@@ -42,7 +42,7 @@ def news_call(category_of_interest):
     all_articles = newsapi.get_everything(q='',
                                           sources='bbc-news,the-verge',
                                           domains='bbc.co.uk,techcrunch.com',
-                                          from_param=  "2023-01-31",
+                                          from_param=  get_time_last_month(),
                                           to= get_time_today(),
                                           language='en',
                                           sort_by='relevancy',
@@ -66,14 +66,14 @@ def news_call(category_of_interest):
 # Call parameters
 # Render Results
 
-# print(json.dumps(news_call(""), indent = 2))
+#print(json.dumps(news_call(""), indent = 2))
 # print(get_time_today())
 # print(get_time_last_month())
 
 def tts_data_prep():
     news_data = news_call("")
     speach_string = ""
-    for i in range(0,5):
+    for i in range(0,3):
         # news_data['articles']['source']['Name']
         speach_string = speach_string + "From " + news_data['articles'][i]['source']['Name'] + ". " + news_data['articles'][i]['title'] + ".\n"
     return speach_string

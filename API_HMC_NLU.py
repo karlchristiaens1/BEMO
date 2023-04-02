@@ -1,4 +1,4 @@
-import secrets
+import BEMO_secrets as secrets
 
 def API_HMC_NLU_api_call(sentence):
     import json
@@ -22,7 +22,7 @@ def API_HMC_NLU_api_call(sentence):
         response = natural_language_understanding.analyze(
             text = sentence,
             features=Features(
-                relations=RelationsOptions(model='d0dfc394-13c2-4233-8ef9-4c1f5954f0f7'),
+                relations=RelationsOptions(model=secrets.IBM_HMC_NLU_MODELID),
                 emotion=EmotionOptions(),
                 semantic_roles=SemanticRolesOptions(),
                 syntax=SyntaxOptions(sentences=True, tokens=SyntaxOptionsTokens(lemma=False,part_of_speech=True)),

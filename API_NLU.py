@@ -1,4 +1,4 @@
-import secrets
+import BEMO_secrets as secrets
 def NLU(sentence):
     import json
     import pandas as pd 
@@ -25,7 +25,8 @@ def NLU(sentence):
             entities=EntitiesOptions(emotion=False, sentiment=False, limit=5),
             keywords=KeywordsOptions(emotion=False, sentiment=False,
                                     limit=2),
-            concepts=ConceptsOptions(limit = 3))
+            concepts=ConceptsOptions(limit = 3)),
+        language = "en"
                                     ).get_result()
     
     # print("Here 1")

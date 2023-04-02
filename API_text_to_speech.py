@@ -1,4 +1,4 @@
-import secrets
+import BEMO_secrets as secrets
 def api_call(text, filename):
     import json
     from ibm_watson import TextToSpeechV1
@@ -31,10 +31,11 @@ def api_call(text, filename):
             ).get_result().content)
 
     
-# spoken = 'Hi there, can you tell me what medecine you have taken today and how you physically feel?'
+#spoken = 'Hi KARL there, can you tell me what medecine you have taken today and how you physically feel?'
 # print(spoken)
 
 # #Call text-to-speech(spoken) service
-# api_call(spoken, 'OneDrive - University College London/ELEC0036/IBM Project/Code/spoken_1_test.wav')
+#bemo_path = '/home/karlmarc/Desktop/BEMO/BEMO-main/'
+#api_call(spoken, bemo_path + 'spoken_1_test.wav')
 
     

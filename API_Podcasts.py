@@ -1,13 +1,14 @@
 import xml.sax
-import secrets
+import BEMO_secrets as secrets
 
+bemo_path = '/home/pi/Desktop/BEMO/BEMO-main/'
 def convert_link_to_file(url):
     import requests
 
     # url = 'https://play.podtrac.com/npr-510366/edge1.pod.npr.org/anon.npr-mp3/npr/ukraine/2023/01/20230127_ukraine_38e592f0-1ca4-4239-83b5-f4d381c1fd8f.mp3?awCollectionId=510366&awEpisodeId=1152132316&orgId=1&d=257&p=510366&story=1152132316&t=podcast&e=1152132316&size=4096880&ft=pod&f=510366'
     response = requests.get(url)
 
-    with open('OneDrive - University College London/ELEC0036/IBM Project/Code/podcast.mp3', 'wb') as f:
+    with open(bemo_path+'podcast.mp3', 'wb') as f:
         f.write(response.content)
 
 # class Podcasts (xml.sax.ContentHandler):
@@ -54,7 +55,7 @@ def convert_link_to_file(url):
 def get_podcast_XML():
     import xml.etree.ElementTree as ET
 
-    tree = ET.parse("OneDrive - University College London/ELEC0036/IBM Project/Code/podcast.xml")
+    tree = ET.parse(bemo_path+"podcast.xml")
     root = tree.getroot()
 
     # Selecting First rss> channel> item > enclosure tag and url attribute
@@ -80,7 +81,9 @@ def get_podcast_XML():
 
 def call_listen_notes(keyword): #Takes a user keyword, returns a list of matching podcasts
     import json
-    from listennotes import podcast_api 
+    from listennotes import podcast_api
+    #import podcast_api
+    
     # 'https://listen-api.listennotes.com/api/v2/best_podcasts'
     # api_key = '6bbf591134cf4c7b82e66f9ca08d476c'
 
@@ -93,7 +96,7 @@ def call_listen_notes(keyword): #Takes a user keyword, returns a list of matchin
 
     url_data_list = []
     
-    for i in range(0,len(response)):
+    for i in range(0,3):
         url_dict = {
             "url" : "",
             "title" : ""
@@ -116,7 +119,7 @@ def tts_data_prep(data):
 
 
 # For Testing Purposes:
-# call_listen_notes('star wars')
+#call_listen_notes('star wars')
 # print(tts_data_prep(call_listen_notes('rubies')))
 
 

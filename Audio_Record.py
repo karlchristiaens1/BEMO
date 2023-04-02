@@ -1,11 +1,14 @@
 def audio_rec(wav_output_filename):
     import pyaudio 
     import wave
-    import robotic_behaviour_LED as rbLED
+    import raspi_ears_servo as rservo
 
-    rbLED.Thread_BLINK_LED()
+    #Blinking eyes & raising ears
+    rservo.thread_eyes_blink()
+    rservo.thread_ears_up()
+    
     # Setting initial parameters and sampling settings
-    form_1 = pyaudio.paInt16 # 16-bit resolution
+    form_1 = pyaudio.paInt32 # 16-bit resolution
     chans = 1 # 1 channel
     samp_rate = 44100 # 44.1kHz sampling rate
     chunk = 4096 # 2^12 samples for buffer
@@ -26,7 +29,7 @@ def audio_rec(wav_output_filename):
 
     # loop through stream and append audio chunks to frame array
     for ii in range(0,int((samp_rate/chunk)*record_secs)):
-        data = stream.read(chunk)
+        data = stream.read(chunk, exception_on_overflow = False)
         frames.append(data)
 
     print("finished recording")
@@ -43,6 +46,9 @@ def audio_rec(wav_output_filename):
     wavefile.setframerate(samp_rate)
     wavefile.writeframes(b''.join(frames))
     wavefile.close()
+    
+    #Lowering ears
+    rservo.thread_ears_down()
 
 def audio_play(path):
     # import required module
@@ -51,6 +57,7 @@ def audio_play(path):
     # for playing note.wav file
     playsound(path)
     print('playing sound using  playsound') # "C:\Users\karlc\test1.wav"
+#audio_play('/home/pi/Desktop/BEMO/BEMO-main/podcast.mp3')
 
 def audio_play2(path):
     # import required modules
@@ -97,8 +104,8 @@ def audio_play3(path):
     # # print('playing sound using  pydub')
     # play(song)
 
-# audio_play2("OneDrive - University College London/ELEC0036/IBM Project/Code/sentences.wav")
-# audio_play("OneDrive - University College London/ELEC0036/IBM Project/Code/spoken_1_test2.wav")
+#audio_play2("/home/karlmarc/Desktop/BEMO/BEMO-main/command_rec.wav")
+# ~ audio_play("/home/karlmarc/Desktop/BEMO/BEMO-main/command_rec.wav")
 
 
 def audio_settings():
@@ -109,7 +116,7 @@ def audio_settings():
     
     # Get all audio devicess
     for i in range(p.get_device_count()):
-        print(p.get_device_info_by_index(1).get('name'))
+        print(p.get_device_info_by_index(i).get('name'))
 
     # Get the sample rate and the number of channels that the selected device supports
     sample_rate = (p.get_device_info_by_host_api_device_index(0, 2).get('defaultSampleRate'))
@@ -118,4 +125,5 @@ def audio_settings():
     print('Input device sample rate is ', sample_rate)
     print('Input device channels is ', device_channels)
 
-# audio_settings()
+# ~ audio_settings()
+# ~ audio_rec('testing_audio.wav')

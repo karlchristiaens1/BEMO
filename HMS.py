@@ -7,9 +7,13 @@ import Database_Cloudant as dbc
 import Audio_Record as arec
 
 #Test Responses Model was trained On:
-# "I've been taking my Albuterol as needed for my asthma and it's been keeping my symptoms under control."
-# 'I\'ve also been trying to eat healthier, I\'ve been cutting down on processed foods and eating more fruits and vegetables. I\'m also trying to drink more water. I think it\'s been making a difference, my blood pressure has been much better.'
-# 'I\'ve also been trying to incorporate more stretching and yoga into my routine. I\'ve been using a foam roller to help with my back pain, and it seems to be working well. The Ibuprofen you prescribed is also helping with the pain.'
+s1 =  "I've been taking my Albuterol as needed for my asthma and it's been keeping my symptoms under control."
+s2 =  'I\'ve also been trying to eat healthier, I\'ve been cutting down on processed foods and eating more fruits and vegetables. I\'m also trying to drink more water. I think it\'s been making a difference, my blood pressure has been much better.'
+s3 =  'I\'ve also been trying to incorporate more stretching and yoga into my routine. I\'ve been using a foam roller to help with my back pain, and it seems to be working well. The Ibuprofen you prescribed is also helping with the pain.'
+s4 = 'I feel ike a 5 out of 5'
+s5 = 'I went shopping at the mall'
+
+bemo_path = '/home/karlmarc/Desktop/BEMO/BEMO-main/'
 
 def medicine_check(): #Apply model
     # entry1 = [{
@@ -38,13 +42,14 @@ def medicine_check(): #Apply model
 
     #Call text-to-speech(spoken) service
     # tts.api_call(spoken, 'spoken_1.wav')
-    tts.api_call(spoken, 'OneDrive - University College London/ELEC0036/IBM Project/Code/spoken_1.wav')
-    arec.audio_play2('OneDrive - University College London/ELEC0036/IBM Project/Code/spoken_1.wav')
+    tts.api_call(spoken, bemo_path + 'spoken_1.wav')
+    arec.audio_play2(bemo_path + 'spoken_1.wav')
     
     #Call Audio Recording Program
-    arec.audio_rec('OneDrive - University College London/ELEC0036/IBM Project/Code/check_1.wav')
+    arec.audio_rec(bemo_path + 'check_1.wav')
     #Call Speech To Text Program
     user_reply = stt.main('check_1.wav')
+    user_reply = s1
     print(user_reply)
 
     #Call Machine Learning Model deployed on 2nd NLU instance
@@ -80,14 +85,15 @@ def food_drink_check(): # Apply model
     # print(spoken)
 
     #Call text-to-speech(spoken) service
-    tts.api_call(spoken, 'OneDrive - University College London/ELEC0036/IBM Project/Code/spoken_2.wav')
-    arec.audio_play2('OneDrive - University College London/ELEC0036/IBM Project/Code/spoken_2.wav')
+    #tts.api_call(spoken, bemo_path + 'spoken_2.wav')
+    arec.audio_play2(bemo_path + 'spoken_2.wav')
 
     #Call Audio Recording Program
-    arec.audio_rec('OneDrive - University College London/ELEC0036/IBM Project/Code/check_2.wav')
+    arec.audio_rec(bemo_path + 'check_2.wav')
 
     #Call Speech to text Program
     user_reply = stt.main('check_2.wav')
+    user_reply = s2
     print(user_reply)
 
     #Call Machine Learning Model deployed on 2nd NLU instance
@@ -122,14 +128,15 @@ def exercise_check(): #Apply model
     # print(spoken)
     
     #Call text-to-speech(spoken) service
-    tts.api_call(spoken, 'OneDrive - University College London/ELEC0036/IBM Project/Code/spoken_3.wav')
-    arec.audio_play2('OneDrive - University College London/ELEC0036/IBM Project/Code/spoken_3.wav')
+    #tts.api_call(spoken, bemo_path + 'spoken_3.wav')
+    arec.audio_play2(bemo_path + 'spoken_3.wav')
 
     #Call Audio Recording Program
-    arec.audio_rec('OneDrive - University College London/ELEC0036/IBM Project/Code/check_3.wav')
+    arec.audio_rec(bemo_path + 'check_3.wav')
 
     #Call Speech to text Program
     user_reply = stt.main('check_3.wav')
+    user_reply = s3
     print(user_reply)
 
     #Call Machine Learning Model deployed on 2nd NLU instance
@@ -157,11 +164,11 @@ def wellbeing_check():
     # print(spoken)
 
     #Call text-to-speech(spoken)
-    tts.api_call(spoken, 'OneDrive - University College London/ELEC0036/IBM Project/Code/spoken_4.wav')
-    arec.audio_play2('OneDrive - University College London/ELEC0036/IBM Project/Code/spoken_4.wav')
+    tts.api_call(spoken, bemo_path + 'spoken_4.wav')
+    arec.audio_play2(bemo_path + 'spoken_4.wav')
 
     #Call Audio Recording Program
-    arec.audio_rec('OneDrive - University College London/ELEC0036/IBM Project/Code/check_4.wav')
+    arec.audio_rec(bemo_path + 'check_4.wav')
 
     #Call Speech to text Program
     check4_data = stt.main('check_4.wav')
@@ -173,11 +180,11 @@ def day_summary():
     spoken = 'Can you give me a summary of your day?' #Plain Summary -> Later I could extract themes
     # print(spoken)
     #Call text-to-speech(spoken) service
-    tts.api_call(spoken, 'OneDrive - University College London/ELEC0036/IBM Project/Code/spoken_5.wav')
-    arec.audio_play2('OneDrive - University College London/ELEC0036/IBM Project/Code/spoken_5.wav')
+    tts.api_call(spoken, bemo_path + 'spoken_5.wav')
+    arec.audio_play2(bemo_path + 'spoken_5.wav')
 
     #Call Audio Recording Program
-    arec.audio_rec('OneDrive - University College London/ELEC0036/IBM Project/Code/check_5.wav')
+    arec.audio_rec(bemo_path + 'check_5.wav')
 
     #Call Speech to text Program
     check5_data = stt.main('check_5.wav')
@@ -212,9 +219,8 @@ def main(): #Add arguments for actions 1 or 2
     
     #Action 1: Run the health management checks
     HM_check() #To store on Cloudant dB
-
     #Action 2: Record emotions,sentiment, pet interactivity 
     # continuous_monitoring(inputA, inputB)  #To store on Cloudant dB
 
-if __name__ == "__main__":
-    main()
+# ~ if __name__ == "__main__":
+    # ~ main()

@@ -1,4 +1,4 @@
-import secrets
+import BEMO_secrets as secrets
 def main(filename):
     from os.path import join, dirname
     import json
