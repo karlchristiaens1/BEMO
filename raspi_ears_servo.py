@@ -37,6 +37,7 @@ def right_eyes_low():
     IO.setmode (IO.BCM)         #we are programming the GPIO by BCM pin numbers. (PIN35 as ‘GPIO19’)
     IO.setup(19,IO.OUT)      # initialize GPIO19 as an output.
     IO.output(19, 0)    # initialize GPIO19 as an output.
+    
 
 def right_eyes_high():
     #code to turn LED off!
@@ -44,6 +45,8 @@ def right_eyes_high():
     IO.setmode (IO.BCM)         #we are programming the GPIO by BCM pin numbers. (PIN35 as ‘GPIO19’)
     IO.setup(19,IO.OUT)      # initialize GPIO19 as an output.
     IO.output(19, 1)    # initialize GPIO19 as an output.
+    time.sleep(3)
+    right_eyes_low()
 
 def left_eyes_low():
     #code to turn LED off!
@@ -58,6 +61,8 @@ def left_eyes_high():
     IO.setmode (IO.BCM)         #we are programming the GPIO by BCM pin numbers. (PIN35 as ‘GPIO19’)
     IO.setup(20,IO.OUT)      # initialize GPIO19 as an output.
     IO.output(20, 1)    # initialize GPIO19 as an output.
+    time.sleep(3)
+    left_eyes_low()
     
 def ears_up():                          #calling time to provide delays in program
     IO.setwarnings(False)           #do not show any warnings
@@ -90,6 +95,14 @@ def thread_eyes_blink():
     blinking_eyes = threading.Thread(target = eyes_blink, args = (7,))
     blinking_eyes.start()
 
+def thread_happy():
+    left_eye = threading.Thread(target = left_eyes_high)
+    left_eye.start()
+
+def thread_sad():
+    right_eye = threading.Thread(target = right_eyes_high)
+    right_eye.start()
+    
 def thread_ears_up():
     raising_ears = threading.Thread(target = ears_up)
     raising_ears.start()
@@ -133,7 +146,7 @@ def callback_three(channel):
     print('Calling Command.py')
     import Command 
     Command.main()
-
+ 
 #eyes_low()
 #eyes_blink(100)
 #ears_up()
