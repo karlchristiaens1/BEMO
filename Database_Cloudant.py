@@ -9,7 +9,7 @@
 #     "username": "bd4526e8-bde9-48ba-9d66-518274b7d624-bluemix"
 #     }
 import BEMO_secrets as secrets
-
+import raspi_ears_servo as rpes
     # # Deleting the database.
     # try :
     #     client.delete_database(databaseName)
@@ -77,8 +77,18 @@ def create_cm_doc(standardised_data):
     emotion_monitoring = standardised_data[0], #Input
     )
     response = service.post_document(db='continousmonitoring', document=products_doc).get_result()
-
-
+    if emotion_monitoring['joy'] >= 0.6:
+        rpes.thread_happy()
+    elif emotion_monitoring['sadness'] >= 0.6:
+        rpes.thread_sad()
+    elif emotion_monitoring['fear'] >= 0.6:
+        rpes.thread_sad()
+    elif emotion_monitoring['disgust'] >= 0.6:
+        rpes.thread_sad()
+    elif emotion_monitoring['anger'] >= 0.6:
+        rpes.thread_sad()
+    else:
+        pass
 
 #Example Data for testing:
 # fakedata = [{'SYMPTOM': [], 'MEDICATION': [], 'EFFECT': [{'effect': 'feel', 'specific': [{'labels': []}], 'status': []}]}, {'FOOD_DRINK': [{'healthy': [{'food': 'apple', 'status': [], 'time': ['lunch', 'TIME']}], 'unhealthy': [{'food': 'processed foods', 'status': ['LESS'], 'time': []}], 'other': []}], 'EFFECT': []}, {'exercise': [], 'status': [], 'time': []}, 'I feel like a six ', 'my day was fantastic I went out and did sports ']
