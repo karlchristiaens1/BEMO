@@ -11,7 +11,7 @@ import remove_html as rhmtl
 
 bemo_path = '/home/karlmarc/Desktop/BEMO/BEMO-main/'
 def command_process():
-    #arec.audio_play(bemo_path + 'Sounds/bemo_grunt.mp3')
+    
     #Call Audio Recording Program
     arec.audio_rec(bemo_path + 'command_rec.wav')
 
