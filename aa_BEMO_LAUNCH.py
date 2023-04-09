@@ -3,6 +3,7 @@ import HMS
 import raspi_ears_servo as rb
 import time
 import random
+import Audio_Record as arec 
 
 start_num = 300 # 5min
 end_num = 480 # 8min
