@@ -1,0 +1,1681 @@
+lemma,poscode,surface
+celecoxib,3,celecoxib
+diclofenac,3,diclofenac
+diflunisal,3,diflunisal
+etodolac,3,etodolac
+fenoprofen,3,fenoprofen
+flurbiprofen,3,flurbiprofen
+ibuprofen,3,ibuprofen
+indomethacin,3,indomethacin
+ketoprofen,3,ketoprofen
+ketorolac,3,ketorolac
+meclofenamate,3,meclofenamate
+mefenamic acid,3,mefenamic acid
+meloxicam,3,meloxicam
+nabumetone,3,nabumetone
+naproxen,3,naproxen
+oxaprozin,3,oxaprozin
+piroxicam,3,piroxicam
+sulindac,3,sulindac
+tolmetin,3,tolmetin
+hydromorphone,3,hydromorphone
+fentanyl,3,fentanyl
+levorphanol,3,levorphanol
+methadone,3,methadone
+morphine,3,morphine
+oxycodone,3,oxycodone
+oxymorphone,3,oxymorphone
+tramadol,3,tramadol
+butorphanol,3,butorphanol
+codeine,3,codeine
+meperidine,3,meperidine
+nalbuphine,3,nalbuphine
+pentazocine,3,pentazocine
+tapentadol,3,tapentadol
+lidocaine,3,lidocaine
+lidocaine and prilocaine,3,lidocaine and prilocaine
+acamprosate,3,acamprosate
+disulfiram,3,disulfiram
+naltrexone,3,naltrexone
+buprenorphine,3,buprenorphine
+buprenorphine/naloxone,3,buprenorphine/naloxone
+naloxone,3,naloxone
+bupropion,3,bupropion
+nicotine,3,nicotine
+varenicline,3,varenicline
+amikacin,3,amikacin
+gentamicin,3,gentamicin
+kanamycin,3,kanamycin
+neomycin,3,neomycin
+paromomycin,3,paromomycin
+streptomycin,3,streptomycin
+tobramycin,3,tobramycin
+cefadroxil,3,cefadroxil
+cefazolin,3,cefazolin
+cephalexin,3,cephalexin
+cefaclor,3,cefaclor
+cefoxitin,3,cefoxitin
+cefprozil,3,cefprozil
+cefuroxime,3,cefuroxime
+cefdinir,3,cefdinir
+cefditoren,3,cefditoren
+cefixime,3,cefixime
+cefotaxime,3,cefotaxime
+cefpodoxime,3,cefpodoxime
+ceftazidime,3,ceftazidime
+ceftibuten,3,ceftibuten
+ceftriaxone,3,ceftriaxone
+cefepime,3,cefepime
+ceftaroline,3,ceftaroline
+amoxicillin,3,amoxicillin
+amoxicillin and clavulanate potassium,3,amoxicillin and clavulanate potassium
+ampicillin,3,ampicillin
+ampicillin sodium and sulbactam sodium,3,ampicillin sodium and sulbactam sodium
+piperacillin,3,piperacillin
+penicillin g,3,penicillin g
+penicillin v,3,penicillin v
+dicloxacillin,3,dicloxacillin
+nafcillin,3,nafcillin
+oxacillin,3,oxacillin
+aztreonam,3,aztreonam
+doripenem,3,doripenem
+ertapenem,3,ertapenem
+imipenem and cilastatin sodium,3,imipenem and cilastatin sodium
+meropenem,3,meropenem
+azithromycin,3,azithromycin
+clarithromycin,3,clarithromycin
+erythromycin,3,erythromycin
+fidaxomicin,3,fidaxomicin
+telithromycin,3,telithromycin
+besifloxacin,3,besifloxacin
+ciprofloxacin,3,ciprofloxacin
+gatifloxacin,3,gatifloxacin
+gemifloxacin,3,gemifloxacin
+levofloxacin,3,levofloxacin
+moxifloxacin,3,moxifloxacin
+norfloxacin,3,norfloxacin
+ofloxacin,3,ofloxacin
+sulfacetamide,3,sulfacetamide
+sulfadiazine,3,sulfadiazine
+sulfamethoxazole and trimethoprim,3,sulfamethoxazole and trimethoprim
+demeclocycline,3,demeclocycline
+doxycycline,3,doxycycline
+minocycline,3,minocycline
+tetracycline,3,tetracycline
+trimethoprim,3,trimethoprim
+vancomycin,3,vancomycin
+clindamycin,3,clindamycin
+lincomycin,3,lincomycin
+nitrofurantoin,3,nitrofurantoin
+linezolid,3,linezolid
+acetic acid,3,acetic acid
+bacitracin,3,bacitracin
+chloramphenicol,3,chloramphenicol
+daptomycin,3,daptomycin
+fosfomycin,3,fosfomycin
+gramicidin,3,gramicidin
+mafenide,3,mafenide
+methenamine,3,methenamine
+metronidazole,3,metronidazole
+mupirocin,3,mupirocin
+polymyxin b,3,polymyxin b
+retapamulin,3,retapamulin
+rifaximin,3,rifaximin
+telavancin,3,telavancin
+tinidazole,3,tinidazole
+tigecycline,3,tigecycline
+ethosuximide,3,ethosuximide
+methsuximide,3,methsuximide
+pregabalin,3,pregabalin
+zonisamide,3,zonisamide
+clobazam,3,clobazam
+clonazepam,3,clonazepam
+clorazepate,3,clorazepate
+diazepam,3,diazepam
+lorazepam,3,lorazepam
+mephobarbital,3,mephobarbital
+primidone,3,primidone
+divalproex,3,divalproex
+gabapentin,3,gabapentin
+tiagabine,3,tiagabine
+valproate,3,valproate
+vigabatrin,3,vigabatrin
+felbamate,3,felbamate
+lamotrigine,3,lamotrigine
+perampanel,3,perampanel
+topiramate,3,topiramate
+carbamazepine,3,carbamazepine
+eslicarbazepine,3,eslicarbazepine
+ethotoin,3,ethotoin
+fosphenytoin,3,fosphenytoin
+lacosamide,3,lacosamide
+oxcarbazepine,3,oxcarbazepine
+phenytoin,3,phenytoin
+rufinamide,3,rufinamide
+levetiracetam,3,levetiracetam
+ezogabine,3,ezogabine
+donepezil,3,donepezil
+galantamine,3,galantamine
+rivastigmine,3,rivastigmine
+memantine,3,memantine
+ergoloid mesylates,3,ergoloid mesylates
+phenelzine,3,phenelzine
+selegiline,3,selegiline
+tranylcypromine,3,tranylcypromine
+citalopram,3,citalopram
+desvenlafaxine,3,desvenlafaxine
+duloxetine,3,duloxetine
+escitalopram,3,escitalopram
+fluoxetine,3,fluoxetine
+fluvoxamine,3,fluvoxamine
+levomilnacipran,3,levomilnacipran
+maprotiline,3,maprotiline
+nefazodone,3,nefazodone
+paroxetine,3,paroxetine
+sertraline,3,sertraline
+trazodone,3,trazodone
+venlafaxine,3,venlafaxine
+vilazodone,3,vilazodone
+vortioxetine,3,vortioxetine
+amitriptyline,3,amitriptyline
+amoxapine,3,amoxapine
+clomipramine,3,clomipramine
+desipramine,3,desipramine
+doxepin,3,doxepin
+imipramine,3,imipramine
+nortriptyline,3,nortriptyline
+protriptyline,3,protriptyline
+trimipramine,3,trimipramine
+mirtazapine,3,mirtazapine
+aripiprazole,3,aripiprazole
+quetiapine,3,quetiapine
+dolasetron,3,dolasetron
+granisetron,3,granisetron
+ondansetron,3,ondansetron
+palonosetron,3,palonosetron
+aprepitant,3,aprepitant
+nabilone,3,nabilone
+dronabinol,3,dronabinol
+chlorpromazine,3,chlorpromazine
+diphenhydramine,3,diphenhydramine
+doxylamine succinate/pyridoxine hydrochloride,3,doxylamine succinate/pyridoxine hydrochloride
+hydroxyzine,3,hydroxyzine
+meclizine,3,meclizine
+metoclopramide,3,metoclopramide
+perphenazine,3,perphenazine
+prochlorperazine,3,prochlorperazine
+promethazine,3,promethazine
+scopolamine,3,scopolamine
+trimethobenzamide,3,trimethobenzamide
+dihydroergotamine,3,dihydroergotamine
+ergotamine,3,ergotamine
+almotriptan,3,almotriptan
+eletriptan,3,eletriptan
+frovatriptan,3,frovatriptan
+naratriptan,3,naratriptan
+rizatriptan,3,rizatriptan
+sumatriptan,3,sumatriptan
+zolmitriptan,3,zolmitriptan
+timolol,3,timolol
+ambenonium,3,ambenonium
+pyridostigmine,3,pyridostigmine
+bedaquiline,3,bedaquiline
+capreomycin,3,capreomycin
+cycloserine,3,cycloserine
+ethambutol,3,ethambutol
+ethionamide,3,ethionamide
+isoniazid,3,isoniazid
+pyrazinamide,3,pyrazinamide
+rifampin,3,rifampin
+rifapentine,3,rifapentine
+dapsone,3,dapsone
+rifabutin,3,rifabutin
+altretamine,3,altretamine
+chlorambucil,3,chlorambucil
+mechlorethamine,3,mechlorethamine
+melphalan,3,melphalan
+lomustine,3,lomustine
+busulfan,3,busulfan
+cyclophosphamide,3,cyclophosphamide
+procarbazine,3,procarbazine
+enzalutamide,3,enzalutamide
+bicalutamide,3,bicalutamide
+flutamide,3,flutamide
+nilutamide,3,nilutamide
+abiraterone,3,abiraterone
+lenalidomide,3,lenalidomide
+pomalidomide,3,pomalidomide
+thalidomide,3,thalidomide
+estramustine,3,estramustine
+tamoxifen,3,tamoxifen
+toremifene,3,toremifene
+mercaptopurine,3,mercaptopurine
+thioguanine,3,thioguanine
+hydroxyurea,3,hydroxyurea
+anastrozole,3,anastrozole
+exemestane,3,exemestane
+letrozole,3,letrozole
+etoposide,3,etoposide
+topotecan,3,topotecan
+vemurafenib,3,vemurafenib
+dabrafenib,3,dabrafenib
+trametinib,3,trametinib
+ibrutinib,3,ibrutinib
+afatinib,3,afatinib
+erlotinib,3,erlotinib
+vismodegib,3,vismodegib
+ruxolitinib,3,ruxolitinib
+everolimus,3,everolimus
+crizotinib,3,crizotinib
+bosutinib,3,bosutinib
+dasatinib,3,dasatinib
+imatinib,3,imatinib
+nilotinib,3,nilotinib
+ponatinib,3,ponatinib
+lapatinib,3,lapatinib
+axitinib,3,axitinib
+cabozantinib,3,cabozantinib
+pazopanib,3,pazopanib
+regorafenib,3,regorafenib
+sorafenib,3,sorafenib
+sunitinib,3,sunitinib
+rituximab,3,rituximab
+ofatumumab,3,ofatumumab
+alitretinoin,3,alitretinoin
+bexarotene,3,bexarotene
+tretinoin,3,tretinoin
+fludarabine,3,fludarabine
+leucovorin,3,leucovorin
+mitoxantrone,3,mitoxantrone
+vorinostat,3,vorinostat
+albendazole,3,albendazole
+ivermectin,3,ivermectin
+mebendazole,3,mebendazole
+praziquantel,3,praziquantel
+artemether and lumefantrine,3,artemether and lumefantrine
+atovaquone and proguanil hydrochloride,3,atovaquone and proguanil hydrochloride
+chloroquine,3,chloroquine
+hydroxychloroquine,3,hydroxychloroquine
+mefloquine,3,mefloquine
+primaquine,3,primaquine
+pyrimethamine,3,pyrimethamine
+quinine,3,quinine
+atovaquone,3,atovaquone
+nitazoxanide,3,nitazoxanide
+pentamidine,3,pentamidine
+benzyl alcohol,3,benzyl alcohol
+crotamiton,3,crotamiton
+lindane,3,lindane
+malathion,3,malathion
+permethrin,3,permethrin
+spinosad,3,spinosad
+benztropine,3,benztropine
+trihexyphenidyl,3,trihexyphenidyl
+apomorphine,3,apomorphine
+bromocriptine,3,bromocriptine
+pramipexole,3,pramipexole
+ropinirole,3,ropinirole
+rotigotine,3,rotigotine
+carbidopa,3,carbidopa
+carbidopa and levodopa,3,carbidopa and levodopa
+rasagiline,3,rasagiline
+entacapone,3,entacapone
+tolcapone,3,tolcapone
+amantadine,3,amantadine
+fluphenazine,3,fluphenazine
+haloperidol,3,haloperidol
+loxapine,3,loxapine
+pimozide,3,pimozide
+thioridazine,3,thioridazine
+thiothixene,3,thiothixene
+trifluoperazine,3,trifluoperazine
+asenapine,3,asenapine
+iloperidone,3,iloperidone
+lurasidone,3,lurasidone
+olanzapine,3,olanzapine
+paliperidone,3,paliperidone
+risperidone,3,risperidone
+ziprasidone,3,ziprasidone
+clozapine,3,clozapine
+cidofovir,3,cidofovir
+foscarnet,3,foscarnet
+ganciclovir,3,ganciclovir
+valganciclovir,3,valganciclovir
+adefovir,3,adefovir
+entecavir,3,entecavir
+lamivudine,3,lamivudine
+ribavirin,3,ribavirin
+telbivudine,3,telbivudine
+tenofovir,3,tenofovir
+"interferon alfa-2b, recombinant",3,"interferon alfa-2b, recombinant"
+interferon alfa-n3,3,interferon alfa-n4
+peginterferon alfa-2a,3,peginterferon alfa-2a
+peginterferon alfa-2b,3,peginterferon alfa-2b
+interferon alfacon-1,3,interferon alfacon-2
+boceprevir,3,boceprevir
+simeprevir,3,simeprevir
+telaprevir,3,telaprevir
+sofosbuvir,3,sofosbuvir
+acyclovir,3,acyclovir
+famciclovir,3,famciclovir
+idoxuridine,3,idoxuridine
+trifluridine,3,trifluridine
+penciclovir,3,penciclovir
+valacyclovir,3,valacyclovir
+delavirdine,3,delavirdine
+efavirenz,3,efavirenz
+etravirine,3,etravirine
+nevirapine,3,nevirapine
+rilpivirine,3,rilpivirine
+abacavir,3,abacavir
+abacavir and lamivudine,3,abacavir and lamivudine
+didanosine,3,didanosine
+emtricitabine,3,emtricitabine
+emtricitabine and tenofovir,3,emtricitabine and tenofovir
+lamivudine and zidovudine,3,lamivudine and zidovudine
+stavudine,3,stavudine
+zidovudine,3,zidovudine
+atazanavir,3,atazanavir
+darunavir,3,darunavir
+fosamprenavir,3,fosamprenavir
+indinavir,3,indinavir
+lopinavir and ritonavir,3,lopinavir and ritonavir
+nelfinavir,3,nelfinavir
+ritonavir,3,ritonavir
+saquinavir,3,saquinavir
+tipranavir,3,tipranavir
+dolutegravir,3,dolutegravir
+raltegravir,3,raltegravir
+enfuvirtide,3,enfuvirtide
+maraviroc,3,maraviroc
+oseltamivir,3,oseltamivir
+rimantadine,3,rimantadine
+zanamivir,3,zanamivir
+alprazolam,3,alprazolam
+chlordiazepoxide,3,chlordiazepoxide
+oxazepam,3,oxazepam
+buspirone,3,buspirone
+meprobamate,3,meprobamate
+lithium,3,lithium
+acarbose,3,acarbose
+miglitol,3,miglitol
+pramlintide,3,pramlintide
+metformin,3,metformin
+colesevelam,3,colesevelam
+alogliptin,3,alogliptin
+linagliptin,3,linagliptin
+saxagliptin,3,saxagliptin
+sitagliptin,3,sitagliptin
+exenatide,3,exenatide
+liraglutide,3,liraglutide
+nateglinide,3,nateglinide
+repaglinide,3,repaglinide
+canagliflozin,3,canagliflozin
+chlorpropamide,3,chlorpropamide
+glimepiride,3,glimepiride
+glipizide,3,glipizide
+glyburide,3,glyburide
+tolazamide,3,tolazamide
+tolbutamide,3,tolbutamide
+pioglitazone,3,pioglitazone
+rosiglitazone,3,rosiglitazone
+diazoxide,3,diazoxide
+glucagon,3,glucagon
+insulin aspart,3,insulin aspart
+insulin glulisine,3,insulin glulisine
+insulin lispro,3,insulin lispro
+insulin human (regular),3,insulin human (regular)
+isophane insulin (human),3,isophane insulin (human)
+insulin detemir,3,insulin detemir
+insulin glargine,3,insulin glargine
+dabigatran,3,dabigatran
+apixaban,3,apixaban
+rivaroxaban,3,rivaroxaban
+fondaparinux,3,fondaparinux
+dalteparin,3,dalteparin
+enoxaparin,3,enoxaparin
+warfarin,3,warfarin
+filgrastim,3,filgrastim
+pegfilgrastim,3,pegfilgrastim
+sargramostim,3,sargramostim
+darbepoetin alfa,3,darbepoetin alfa
+epoetin alfa,3,epoetin alfa
+anagrelide,3,anagrelide
+eltrombopag olamine,3,eltrombopag olamine
+romiplostim,3,romiplostim
+plerixafor,3,plerixafor
+tranexamic acid,3,tranexamic acid
+clopidogrel,3,clopidogrel
+prasugrel,3,prasugrel
+ticlopidine,3,ticlopidine
+ticagrelor,3,ticagrelor
+dipyridamole,3,dipyridamole
+cilostazol,3,cilostazol
+clonidine,3,clonidine
+guanfacine,3,guanfacine
+methyldopa,3,methyldopa
+methyldopate,3,methyldopate
+midodrine,3,midodrine
+phenylephrine,3,phenylephrine
+doxazosin,3,doxazosin
+phenoxybenzamine,3,phenoxybenzamine
+prazosin,3,prazosin
+terazosin,3,terazosin
+benazepril,3,benazepril
+captopril,3,captopril
+enalapril,3,enalapril
+fosinopril,3,fosinopril
+lisinopril,3,lisinopril
+moexipril,3,moexipril
+perindopril,3,perindopril
+quinapril,3,quinapril
+ramipril,3,ramipril
+trandolapril,3,trandolapril
+azilsartan,3,azilsartan
+candesartan,3,candesartan
+eprosartan,3,eprosartan
+irbesartan,3,irbesartan
+losartan,3,losartan
+olmesartan,3,olmesartan
+telmisartan,3,telmisartan
+valsartan,3,valsartan
+amiodarone,3,amiodarone
+disopyramide,3,disopyramide
+dofetilide,3,dofetilide
+dronedarone,3,dronedarone
+flecainide,3,flecainide
+mexiletine,3,mexiletine
+procainamide,3,procainamide
+propafenone,3,propafenone
+quinidine,3,quinidine
+sotalol,3,sotalol
+acebutolol,3,acebutolol
+atenolol,3,atenolol
+betaxolol,3,betaxolol
+bisoprolol,3,bisoprolol
+carvedilol,3,carvedilol
+labetalol,3,labetalol
+metoprolol,3,metoprolol
+nadolol,3,nadolol
+nebivolol,3,nebivolol
+penbutolol,3,penbutolol
+pindolol,3,pindolol
+propranolol,3,propranolol
+amlodipine,3,amlodipine
+felodipine,3,felodipine
+isradipine,3,isradipine
+nicardipine,3,nicardipine
+nifedipine,3,nifedipine
+nimodipine,3,nimodipine
+nisoldipine,3,nisoldipine
+diltiazem,3,diltiazem
+verapamil,3,verapamil
+acetazolamide,3,acetazolamide
+methazolamide,3,methazolamide
+bumetanide,3,bumetanide
+ethacrynate/ethacrynic acid,3,ethacrynate/ethacrynic acid
+furosemide,3,furosemide
+torsemide,3,torsemide
+amiloride,3,amiloride
+eplerenone,3,eplerenone
+spironolactone,3,spironolactone
+triamterene,3,triamterene
+bendroflumethiazide,3,bendroflumethiazide
+chlorothiazide,3,chlorothiazide
+chlorthalidone,3,chlorthalidone
+hydrochlorothiazide,3,hydrochlorothiazide
+indapamide,3,indapamide
+methyclothiazide,3,methyclothiazide
+metolazone,3,metolazone
+choline fenofibrate,3,choline fenofibrate
+fenofibrate/fenofibric acid,3,fenofibrate/fenofibric acid
+gemfibrozil,3,gemfibrozil
+atorvastatin,3,atorvastatin
+fluvastatin,3,fluvastatin
+lovastatin,3,lovastatin
+pitavastatin,3,pitavastatin
+pravastatin,3,pravastatin
+rosuvastatin,3,rosuvastatin
+simvastatin,3,simvastatin
+cholestyramine,3,cholestyramine
+colestipol,3,colestipol
+ezetimibe,3,ezetimibe
+icosapent ethyl,3,icosapent ethyl
+lomitapide,3,lomitapide
+mipomersen,3,mipomersen
+niacin,3,niacin
+omega-3-acid ethyl esters,3,omega-3-acid ethyl esters
+hydralazine,3,hydralazine
+minoxidil,3,minoxidil
+isosorbide dinitrate,3,isosorbide dinitrate
+isosorbide mononitrate,3,isosorbide mononitrate
+nitroglycerin,3,nitroglycerin
+aliskiren,3,aliskiren
+digoxin,3,digoxin
+pentoxifylline,3,pentoxifylline
+ranolazine,3,ranolazine
+dextroamphetamine,3,dextroamphetamine
+lisdexamfetamine,3,lisdexamfetamine
+methamphetamine,3,methamphetamine
+atomoxetine,3,atomoxetine
+dexmethylphenidate,3,dexmethylphenidate
+methylphenidate,3,methylphenidate
+milnacipran,3,milnacipran
+interferon beta-1a,3,interferon beta-1a
+interferon beta-1b,3,interferon beta-1b
+dalfampridine,3,dalfampridine
+teriflunomide,3,teriflunomide
+fingolimod,3,fingolimod
+dimethyl fumarate,3,dimethyl fumarate
+glatiramer,3,glatiramer
+natalizumab,3,natalizumab
+gabapentin enacarbil,3,gabapentin enacarbil
+tetrabenazine,3,tetrabenazine
+riluzole,3,riluzole
+dextromethorphan/quinidine,3,dextromethorphan/quinidine
+atropine,3,atropine
+dicyclomine,3,dicyclomine
+glycopyrrolate,3,glycopyrrolate
+mepenzolate,3,mepenzolate
+methscopolamine,3,methscopolamine
+cimetidine,3,cimetidine
+famotidine,3,famotidine
+nizatidine,3,nizatidine
+ranitidine,3,ranitidine
+alosetron,3,alosetron
+linaclotide,3,linaclotide
+lubiprostone,3,lubiprostone
+lactulose,3,lactulose
+misoprostol,3,misoprostol
+sucralfate,3,sucralfate
+dexlansoprazole,3,dexlansoprazole
+esomeprazole,3,esomeprazole
+lansoprazole,3,lansoprazole
+omeprazole,3,omeprazole
+pantoprazole,3,pantoprazole
+rabeprazole,3,rabeprazole
+alvimopan,3,alvimopan
+crofelemer,3,crofelemer
+diphenoxylate hydrochloride and atropine sulfate,3,diphenoxylate hydrochloride and atropine sulfate
+loperamide,3,loperamide
+methylnaltrexone,3,methylnaltrexone
+ursodiol,3,ursodiol
+glutamine,3,glutamine
+somatropin,3,somatropin
+teduglutide,3,teduglutide
+mirabegron,3,mirabegron
+darifenacin,3,darifenacin
+fesoterodine,3,fesoterodine
+flavoxate,3,flavoxate
+oxybutynin,3,oxybutynin
+solifenacin,3,solifenacin
+tolterodine,3,tolterodine
+trospium,3,trospium
+alfuzosin,3,alfuzosin
+silodosin,3,silodosin
+tamsulosin,3,tamsulosin
+dutasteride,3,dutasteride
+finasteride,3,finasteride
+tadalafil,3,tadalafil
+calcium acetate,3,calcium acetate
+lanthanum,3,lanthanum
+sevelamer,3,sevelamer
+bethanechol,3,bethanechol
+penicillamine,3,penicillamine
+pentosan polysulfate,3,pentosan polysulfate
+oxandrolone,3,oxandrolone
+danazol,3,danazol
+fluoxymesterone,3,fluoxymesterone
+methyltestosterone,3,methyltestosterone
+testosterone,3,testosterone
+estradiol,3,estradiol
+"estrogens, conjugated",3,"estrogens, conjugated"
+"estrogens, conjugated synthetic",3,"estrogens, conjugated synthetic"
+"estrogens, esterified",3,"estrogens, esterified"
+estrone,3,estrone
+estropipate,3,estropipate
+ethinyl estradiol,3,ethinyl estradiol
+ulipristal,3,ulipristal
+levonorgestrel,3,levonorgestrel
+medroxyprogesterone,3,medroxyprogesterone
+megestrol,3,megestrol
+norethindrone,3,norethindrone
+norgestrel,3,norgestrel
+progesterone,3,progesterone
+raloxifene,3,raloxifene
+ospemifene,3,ospemifene
+methimazole,3,methimazole
+propylthiouracil,3,propylthiouracil
+icatibant,3,icatibant
+mycophenolic acid,3,mycophenolic acid
+tacrolimus,3,tacrolimus
+cyclosporine,3,cyclosporine
+tofacitinib,3,tofacitinib
+sirolimus,3,sirolimus
+abatacept,3,abatacept
+anakinra,3,anakinra
+methotrexate,3,methotrexate
+pimecrolimus,3,pimecrolimus
+azathioprine,3,azathioprine
+adalimumab,3,adalimumab
+certolizumab pegol,3,certolizumab pegol
+etanercept,3,etanercept
+golimumab,3,golimumab
+infliximab,3,infliximab
+anti-thymocyte globulin,3,anti-thymocyte globulin
+immune globulin intravenous (human),3,immune globulin intravenous (human)
+belimumab,3,belimumab
+"interferon gamma-1b, recombinant",3,"interferon gamma-1b, recombinant"
+canakinumab,3,canakinumab
+rilonacept,3,rilonacept
+tocilizumab,3,tocilizumab
+auranofin,3,auranofin
+leflunomide,3,leflunomide
+diphtheria and tetanus toxoids adsorbed (dt),3,diphtheria and tetanus toxoids adsorbed (dt)
+diphtheria and tetanus toxoids and acellular pertussis vaccine adsorbed (dtap),3,diphtheria and tetanus toxoids and acellular pertussis vaccine adsorbed (dtap)
+diphtheria and tetanus toxoids and acellular pertussis absorbed and inactivated poliovirus (dtap-ipv) vaccine,3,diphtheria and tetanus toxoids and acellular pertussis absorbed and inactivated poliovirus (dtap-ipv) vaccine
+haemophilus b conjugate vaccine,3,haemophilus b conjugate vaccine
+hepatitis b virus vaccine recombinant,3,hepatitis b virus vaccine recombinant
+japanese encephalitis virus vaccine inactivated,3,japanese encephalitis virus vaccine inactivated
+measles virus vaccine live,3,measles virus vaccine live
+meningococcal polysaccharide vaccine,3,meningococcal polysaccharide vaccine
+human papillomavirus bivalent (type 16 and 18) vaccine recombinant,3,human papillomavirus bivalent (type 16 and 18) vaccine recombinant
+"human papillomavirus quadrivalent (types 6, 11, 16 and 18) vaccine recombinant",3,"human papillomavirus quadrivalent (types 6, 11, 16 and 18) vaccine recombinant"
+poliovirus vaccine inactivated,3,poliovirus vaccine inactivated
+rabies vaccine,3,rabies vaccine
+rubella virus vaccine,3,rubella virus vaccine
+tetanus toxoid,3,tetanus toxoid
+tetanus toxoid adsorbed,3,tetanus toxoid adsorbed
+typhoid vaccine live oral,3,typhoid vaccine live oral
+varicella virus vaccine,3,varicella virus vaccine
+yellow fever vaccine,3,yellow fever vaccine
+betamethasone,3,betamethasone
+budesonide,3,budesonide
+cortisone,3,cortisone
+dexamethasone,3,dexamethasone
+hydrocortisone,3,hydrocortisone
+methylprednisolone,3,methylprednisolone
+prednisolone,3,prednisolone
+prednisone,3,prednisone
+triamcinolone,3,triamcinolone
+balsalazide,3,balsalazide
+mesalamine,3,mesalamine
+olsalazine,3,olsalazine
+sulfasalazine,3,sulfasalazine
+azelastine,3,azelastine
+bepotastine,3,bepotastine
+cromolyn,3,cromolyn
+emedastine,3,emedastine
+epinastine,3,epinastine
+lodoxamide,3,lodoxamide
+nedocromil,3,nedocromil
+olopatadine,3,olopatadine
+apraclonidine,3,apraclonidine
+brimonidine,3,brimonidine
+dipivefrin,3,dipivefrin
+carteolol,3,carteolol
+levobunolol,3,levobunolol
+metipranolol,3,metipranolol
+brinzolamide,3,brinzolamide
+dorzolamide,3,dorzolamide
+echothiophate,3,echothiophate
+pilocarpine,3,pilocarpine
+difluprednate,3,difluprednate
+fluocinolone,3,fluocinolone
+loteprednol,3,loteprednol
+rimexolone,3,rimexolone
+bromfenac,3,bromfenac
+nepafenac,3,nepafenac
+bimatoprost,3,bimatoprost
+latanoprost,3,latanoprost
+tafluprost,3,tafluprost
+travoprost,3,travoprost
+hydroxypropyl cellulose,3,hydroxypropyl cellulose
+naphazoline,3,naphazoline
+cetirizine,3,cetirizine
+desloratadine,3,desloratadine
+levocetirizine,3,levocetirizine
+carbinoxamine,3,carbinoxamine
+clemastine,3,clemastine
+cyproheptadine,3,cyproheptadine
+beclomethasone,3,beclomethasone
+ciclesonide,3,ciclesonide
+flunisolide,3,flunisolide
+fluticasone,3,fluticasone
+mometasone,3,mometasone
+montelukast,3,montelukast
+zafirlukast,3,zafirlukast
+zileuton,3,zileuton
+aclidinium,3,aclidinium
+ipratropium,3,ipratropium
+tiotropium,3,tiotropium
+albuterol,3,albuterol
+arformoterol,3,arformoterol
+ephedrine,3,ephedrine
+epinephrine,3,epinephrine
+formoterol,3,formoterol
+indacaterol,3,indacaterol
+levalbuterol,3,levalbuterol
+metaproterenol,3,metaproterenol
+salmeterol,3,salmeterol
+terbutaline,3,terbutaline
+ivacaftor,3,ivacaftor
+tobramycin dry-powder inhaler,3,tobramycin dry-powder inhaler
+aminophylline,3,aminophylline
+dyphylline,3,dyphylline
+theophylline,3,theophylline
+roflumilast,3,roflumilast
+ambrisentan,3,ambrisentan
+bosentan,3,bosentan
+macitentan,3,macitentan
+sildenafil,3,sildenafil
+epoprostenol,3,epoprostenol
+iloprost,3,iloprost
+treprostinil,3,treprostinil
+riociguat,3,riociguat
+acetylcysteine,3,acetylcysteine
+budesonide/formoterol fumarate,3,budesonide/formoterol fumarate
+fluticasone furoate/vilanterol trifenatate,3,fluticasone furoate/vilanterol trifenatate
+fluticasone propionate/salmeterol,3,fluticasone propionate/salmeterol
+tetrahydrozoline,3,tetrahydrozoline
+flurazepam,3,flurazepam
+temazepam,3,temazepam
+eszopiclone,3,eszopiclone
+zaleplon,3,zaleplon
+zolpidem,3,zolpidem
+armodafinil,3,armodafinil
+modafinil,3,modafinil
+ramelteon,3,ramelteon
+sodium oxybate,3,sodium oxybate
+deferasirox,3,deferasirox
+deferiprone,3,deferiprone
+sodium polystyrene sulfonate,3,sodium polystyrene sulfonate
+succimer,3,succimer
+tolvaptan,3,tolvaptan
+trientine,3,trientine
+ammonium,3,ammonium
+carglumic acid,3,carglumic acid
+chromic,3,chromic
+fluoride,3,fluoride
+magnesium,3,magnesium
+manganese,3,manganese
+potassium,3,potassium
+potassium citrate and sodium citrate,3,potassium citrate and sodium citrate
+selenium,3,selenium
+sodium,3,sodium
+diclofenac potassium,3,diclofenac potassium
+diclofenac sodium,3,diclofenac sodium
+diclofenac diethylamine,3,diclofenac diethylamine
+diclofenac hydroxyethylpyrrolidine,3,diclofenac hydroxyethylpyrrolidine
+diclofenac calcium,3,diclofenac calcium
+fenoprofen calcium,3,fenoprofen calcium
+flurbiprofen axetil,3,flurbiprofen axetil
+flurbiprofen sodium,3,flurbiprofen sodium
+esflurbiprofen,3,esflurbiprofen
+ibuprofen piconol,3,ibuprofen piconol
+ibuprofen aluminum,3,ibuprofen aluminum
+ibuprofen lysine,3,ibuprofen lysine
+ibuprofen arginine salt,3,ibuprofen arginine salt
+ibuprofen sodium,3,ibuprofen sodium
+indomethacin sodium,3,indomethacin sodium
+ketoprofen lysine,3,ketoprofen lysine
+ketoprofen sodium,3,ketoprofen sodium
+ketorolac tromethamine,3,ketorolac tromethamine
+meclofenamic acid,3,meclofenamic acid
+meclofenamate sodium,3,meclofenamate sodium
+naproxen sodium,3,naproxen sodium
+naproxen etemesil,3,naproxen etemesil
+piroxicam betadex,3,piroxicam betadex
+piroxicam cinnamate,3,piroxicam cinnamate
+piroxicam olamine,3,piroxicam olamine
+tolmetin sodium,3,tolmetin sodium
+hydromorphone hydrochloride,3,hydromorphone hydrochloride
+fentanyl citrate,3,fentanyl citrate
+levorphanol tartrate,3,levorphanol tartrate
+methadone hydrochloride,3,methadone hydrochloride
+morphine sulfate,3,morphine sulfate
+morphine hydrochloride hydrate,3,morphine hydrochloride hydrate
+morphine tartrate,3,morphine tartrate
+oxycodone hydrochloride,3,oxycodone hydrochloride
+compound oxycodone,3,compound oxycodone
+oxycodone terephthalate,3,oxycodone terephthalate
+oxycodone hydrochloride hydrate,3,oxycodone hydrochloride hydrate
+oxymorphone hydrochloride,3,oxymorphone hydrochloride
+tramadol hydrochloride,3,tramadol hydrochloride
+butorphanol tartrate,3,butorphanol tartrate
+codeine phosphate,3,codeine phosphate
+codeine polistirex,3,codeine polistirex
+codeine sulfate,3,codeine sulfate
+codeine hydrochloride,3,codeine hydrochloride
+pethidine,3,pethidine
+meperidine hydrochloride,3,meperidine hydrochloride
+nalbuphine hydrochloride,3,nalbuphine hydrochloride
+pentazocine lactate,3,pentazocine lactate
+pentazocine hydrochloride,3,pentazocine hydrochloride
+tapentadol hydrochloride,3,tapentadol hydrochloride
+lidocaine hydrochloride,3,lidocaine hydrochloride
+lidocaine hydrochloride monohydrate,3,lidocaine hydrochloride monohydrate
+lidocaine - prilocaine mixt,3,lidocaine - prilocaine mixt
+acamprosate calcium,3,acamprosate calcium
+naltrexone hydrochloride,3,naltrexone hydrochloride
+buprenorphine hydrochloride,3,buprenorphine hydrochloride
+buprenorphine - naloxone mixt,3,buprenorphine - naloxone mixt
+naloxone hydrochloride,3,naloxone hydrochloride
+bupropion hydrochloride,3,bupropion hydrochloride
+bupropion hydrobromide,3,bupropion hydrobromide
+nicotine bitartrate,3,nicotine bitartrate
+nicotine polacrilex,3,nicotine polacrilex
+varenicline tartrate,3,varenicline tartrate
+amikacin sulfate,3,amikacin sulfate
+gentamicin sulfate,3,gentamicin sulfate
+kanamycin sulfate,3,kanamycin sulfate
+neomycin sulfate,3,neomycin sulfate
+neomycin palmitate,3,neomycin palmitate
+neomycin undecylenate,3,neomycin undecylenate
+paromomycin sulfate,3,paromomycin sulfate
+streptomycin sulfate,3,streptomycin sulfate
+tobramycin sulfate,3,tobramycin sulfate
+cefazolin sodium,3,cefazolin sodium
+cefazolin sodium hydrate,3,cefazolin sodium hydrate
+cefalexin,3,cefalexin
+cephalexin hydrochloride,3,cephalexin hydrochloride
+cefoxitin sodium,3,cefoxitin sodium
+cefuroxime axetil,3,cefuroxime axetil
+cefuroxime sodium,3,cefuroxime sodium
+cefuroxime pivoxetil,3,cefuroxime pivoxetil
+cefditoren pivoxil,3,cefditoren pivoxil
+cefixime hydrate,3,cefixime hydrate
+cefotaxime sodium,3,cefotaxime sodium
+cefpodoxime proxetil,3,cefpodoxime proxetil
+ceftibuten hydrate,3,ceftibuten hydrate
+ceftriaxone sodium,3,ceftriaxone sodium
+cefepime hydrochloride,3,cefepime hydrochloride
+ceftaroline fosamil,3,ceftaroline fosamil
+amoxicillin sodium,3,amoxicillin sodium
+amoxicillin - potassium clavulanate combination,3,amoxicillin - potassium clavulanate combination
+ampicillin hydrate,3,ampicillin hydrate
+ampicillin sodium,3,ampicillin sodium
+ampicillin benzathine,3,ampicillin benzathine
+ampicillin sodium and sulbactam sodium for injection,3,ampicillin sodium and sulbactam sodium for injection
+piperacillin sodium,3,piperacillin sodium
+benzylpenicillin,3,benzylpenicillin
+penicillin g potassium,3,penicillin g potassium
+penicillin g benzathine,3,penicillin g benzathine
+penicillin g procaine,3,penicillin g procaine
+penicillin g sodium,3,penicillin g sodium
+clemizole penicillin,3,clemizole penicillin
+penicillin v potassium,3,penicillin v potassium
+penicillin v benzathine,3,penicillin v benzathine
+phenoxymethylpenicillin benzathine,3,phenoxymethylpenicillin benzathine
+penicillin v hydrabamine,3,penicillin v hydrabamine
+phenoxymethylpenicillin calcium,3,phenoxymethylpenicillin calcium
+dicloxacillin sodium,3,dicloxacillin sodium
+nafcillin sodium,3,nafcillin sodium
+oxacillin sodium,3,oxacillin sodium
+aztreonam lysine,3,aztreonam lysine
+doripenem hydrate,3,doripenem hydrate
+ertapenem sodium,3,ertapenem sodium
+imipenem hydrate - cilastatin sodium,3,imipenem hydrate - cilastatin sodium
+azithromycin hydrate,3,azithromycin hydrate
+clarithromycin lactobionate,3,clarithromycin lactobionate
+erythromycin estolate,3,erythromycin estolate
+erythromycin ethylsuccinate,3,erythromycin ethylsuccinate
+erythromycin lactobionate,3,erythromycin lactobionate
+erythromycin stearate,3,erythromycin stearate
+erythromycin acistrate,3,erythromycin acistrate
+erythromycin gluceptate,3,erythromycin gluceptate
+erythromycin propionate,3,erythromycin propionate
+erythromycin salnacedin,3,erythromycin salnacedin
+erythromycin thiocyanate,3,erythromycin thiocyanate
+erythromycin stinoprate,3,erythromycin stinoprate
+besifloxacin hydrochloride,3,besifloxacin hydrochloride
+ciprofloxacin hydrochloride,3,ciprofloxacin hydrochloride
+ciprofloxacin lactate,3,ciprofloxacin lactate
+gemifloxacin mesylate,3,gemifloxacin mesylate
+moxifloxacin hydrochloride,3,moxifloxacin hydrochloride
+norfloxacin nicotinate,3,norfloxacin nicotinate
+ofloxacin hydrochloride,3,ofloxacin hydrochloride
+sulfacetamide sodium,3,sulfacetamide sodium
+sulfadiazine sodium,3,sulfadiazine sodium
+"sulfadiazine, silver",3,"sulfadiazine, silver"
+co-trimoxazole,3,co-trimoxazole
+demeclocycline hydrochloride,3,demeclocycline hydrochloride
+doxycycline hyclate,3,doxycycline hyclate
+doxycycline calcium,3,doxycycline calcium
+doxycycline fosfatex,3,doxycycline fosfatex
+doxycycline hydrochloride,3,doxycycline hydrochloride
+minocycline hydrochloride,3,minocycline hydrochloride
+tetracycline hydrochloride,3,tetracycline hydrochloride
+tetracycline metaphosphate,3,tetracycline metaphosphate
+trimethoprim sulfate,3,trimethoprim sulfate
+trimethoprim lactate,3,trimethoprim lactate
+vancomycin hydrochloride,3,vancomycin hydrochloride
+clindamycin phosphate,3,clindamycin phosphate
+clindamycin palmitate hydrochloride,3,clindamycin palmitate hydrochloride
+clindamycin hydrochloride,3,clindamycin hydrochloride
+clindamycin phosphate hydrate,3,clindamycin phosphate hydrate
+lincomycin hydrochloride hydrate,3,lincomycin hydrochloride hydrate
+"acetic acid, glacial",3,"acetic acid, glacial"
+bacitracin methylene disalicylate,3,bacitracin methylene disalicylate
+bacitracin zinc,3,bacitracin zinc
+chloramphenicol palmitate,3,chloramphenicol palmitate
+chloramphenicol sodium succinate,3,chloramphenicol sodium succinate
+chloramphenicol stearate,3,chloramphenicol stearate
+chloramphenicol succinate,3,chloramphenicol succinate
+chloramphenicol pantothenate complex,3,chloramphenicol pantothenate complex
+fosfomycin tromethamine,3,fosfomycin tromethamine
+fosfomycin calcium hydrate,3,fosfomycin calcium hydrate
+fosfomycin sodium,3,fosfomycin sodium
+fosfomycin calcium,3,fosfomycin calcium
+gramicidin s hydrochloride,3,gramicidin s hydrochloride
+mafenide acetate,3,mafenide acetate
+homosulfamine,3,homosulfamine
+methenamine hippurate,3,methenamine hippurate
+methenamine mandelate,3,methenamine mandelate
+methenamine sulfosalicylate,3,methenamine sulfosalicylate
+metronidazole hydrochloride,3,metronidazole hydrochloride
+metronidazole phosphate,3,metronidazole phosphate
+metronidazole benzoate,3,metronidazole benzoate
+mupirocin calcium,3,mupirocin calcium
+polymyxin b sulfate,3,polymyxin b sulfate
+telavancin hydrochloride,3,telavancin hydrochloride
+clorazepate dipotassium,3,clorazepate dipotassium
+clorazepate monopotassium,3,clorazepate monopotassium
+divalproex sodium,3,divalproex sodium
+tiagabine hydrochloride,3,tiagabine hydrochloride
+valproic acid,3,valproic acid
+valproate sodium,3,valproate sodium
+calcium valproate,3,calcium valproate
+perampanel hydrate,3,perampanel hydrate
+eslicarbazepine acetate,3,eslicarbazepine acetate
+fosphenytoin sodium,3,fosphenytoin sodium
+fosphenytoin sodium hydrate,3,fosphenytoin sodium hydrate
+phenytoin sodium,3,phenytoin sodium
+donepezil hydrochloride,3,donepezil hydrochloride
+galantamine hydrobromide,3,galantamine hydrobromide
+rivastigmine tartrate,3,rivastigmine tartrate
+memantine hydrochloride,3,memantine hydrochloride
+phenelzine sulfate,3,phenelzine sulfate
+selegiline hydrochloride,3,selegiline hydrochloride
+tranylcypromine sulfate,3,tranylcypromine sulfate
+citalopram hydrobromide,3,citalopram hydrobromide
+citalopram hydrochloride,3,citalopram hydrochloride
+desvenlafaxine succinate,3,desvenlafaxine succinate
+duloxetine hydrochloride,3,duloxetine hydrochloride
+escitalopram oxalate,3,escitalopram oxalate
+fluoxetine hydrochloride,3,fluoxetine hydrochloride
+fluvoxamine maleate,3,fluvoxamine maleate
+levomilnacipran hydrochloride,3,levomilnacipran hydrochloride
+maprotiline hydrochloride,3,maprotiline hydrochloride
+nefazodone hydrochloride,3,nefazodone hydrochloride
+paroxetine hydrochloride hydrate,3,paroxetine hydrochloride hydrate
+paroxetine hydrochloride,3,paroxetine hydrochloride
+paroxetine mesylate,3,paroxetine mesylate
+sertraline hydrochloride,3,sertraline hydrochloride
+trazodone hydrochloride,3,trazodone hydrochloride
+venlafaxine hydrochloride,3,venlafaxine hydrochloride
+vilazodone hydrochloride,3,vilazodone hydrochloride
+vortioxetine hydrobromide,3,vortioxetine hydrobromide
+amitriptyline hydrochloride,3,amitriptyline hydrochloride
+clomipramine hydrochloride,3,clomipramine hydrochloride
+desipramine hydrochloride,3,desipramine hydrochloride
+doxepin hydrochloride,3,doxepin hydrochloride
+imipramine hydrochloride,3,imipramine hydrochloride
+imipramine pamoate,3,imipramine pamoate
+nortriptyline hydrochloride,3,nortriptyline hydrochloride
+protriptyline hydrochloride,3,protriptyline hydrochloride
+trimipramine maleate,3,trimipramine maleate
+aripiprazole cavoxil,3,aripiprazole cavoxil
+aripiprazole lauroxil,3,aripiprazole lauroxil
+aripiprazole hydrate,3,aripiprazole hydrate
+quetiapine fumarate,3,quetiapine fumarate
+dolasetron mesylate,3,dolasetron mesylate
+granisetron hydrochloride,3,granisetron hydrochloride
+ondansetron hydrochloride hydrate,3,ondansetron hydrochloride hydrate
+palonosetron hydrochloride,3,palonosetron hydrochloride
+fosaprepitant dimeglumine,3,fosaprepitant dimeglumine
+chlorpromazine hydrochloride,3,chlorpromazine hydrochloride
+chlorpromazine hibenzate,3,chlorpromazine hibenzate
+chlorpromazine phenolphthalinate,3,chlorpromazine phenolphthalinate
+chlorpromazine tannate,3,chlorpromazine tannate
+diphenhydramine hydrochloride,3,diphenhydramine hydrochloride
+diphenhydramine salicylate,3,diphenhydramine salicylate
+diphenhydramine tannate,3,diphenhydramine tannate
+diphenhydramine laurylsulfate,3,diphenhydramine laurylsulfate
+diphenhydramine citrate,3,diphenhydramine citrate
+doxylamine succinate - pyridoxine hydrochloride mixt,3,doxylamine succinate - pyridoxine hydrochloride mixt
+hydroxyzine hydrochloride,3,hydroxyzine hydrochloride
+hydroxyzine pamoate,3,hydroxyzine pamoate
+meclozine,3,meclozine
+meclizine hydrochloride,3,meclizine hydrochloride
+metoclopramide hydrochloride,3,metoclopramide hydrochloride
+perphenazine maleate,3,perphenazine maleate
+perphenazine fendizoate,3,perphenazine fendizoate
+perphenazine hydrochloride,3,perphenazine hydrochloride
+perphenazine decanoate,3,perphenazine decanoate
+perphenazine enantate,3,perphenazine enantate
+prochlorperazine maleate,3,prochlorperazine maleate
+prochlorperazine mesilate,3,prochlorperazine mesilate
+prochlorperazine edisylate,3,prochlorperazine edisylate
+promethazine hydrochloride,3,promethazine hydrochloride
+promethazine teoclate,3,promethazine teoclate
+promethazine methylenedisalicylate,3,promethazine methylenedisalicylate
+promethazine maleate,3,promethazine maleate
+promethazine hibenzate,3,promethazine hibenzate
+scopolamine hydrobromide,3,scopolamine hydrobromide
+trimethobenzamide hydrochloride,3,trimethobenzamide hydrochloride
+dihydroergotamine mesylate,3,dihydroergotamine mesylate
+dihydroergotamine tartrate,3,dihydroergotamine tartrate
+ergotamine tartrate,3,ergotamine tartrate
+almotriptan malate,3,almotriptan malate
+eletriptan hydrobromide,3,eletriptan hydrobromide
+frovatriptan succinate,3,frovatriptan succinate
+naratriptan hydrochloride,3,naratriptan hydrochloride
+rizatriptan benzoate,3,rizatriptan benzoate
+rizatriptan sulfate,3,rizatriptan sulfate
+sumatriptan succinate,3,sumatriptan succinate
+timolol maleate,3,timolol maleate
+ambenonium chloride,3,ambenonium chloride
+pyridostigmine bromide,3,pyridostigmine bromide
+bedaquiline fumarate,3,bedaquiline fumarate
+capreomycin sulfate,3,capreomycin sulfate
+ethambutol hydrochloride,3,ethambutol hydrochloride
+isoniazid calcium pyruvinate,3,isoniazid calcium pyruvinate
+isoniazid sodium methanesulfonate hydrate,3,isoniazid sodium methanesulfonate hydrate
+isoniazid glucuronate sodium,3,isoniazid glucuronate sodium
+mechlorethamine hydrochloride,3,mechlorethamine hydrochloride
+melphalan hydrochloride,3,melphalan hydrochloride
+procarbazine hydrochloride,3,procarbazine hydrochloride
+abiraterone acetate,3,abiraterone acetate
+lenalidomide hydrate,3,lenalidomide hydrate
+estramustine phosphate sodium,3,estramustine phosphate sodium
+estramustine phosphate sodium hydrate,3,estramustine phosphate sodium hydrate
+tamoxifen citrate,3,tamoxifen citrate
+toremifene citrate,3,toremifene citrate
+tioguanine,3,tioguanine
+etoposide phosphate,3,etoposide phosphate
+topotecan hydrochloride,3,topotecan hydrochloride
+dabrafenib mesylate,3,dabrafenib mesylate
+trametinib dimethyl sulfoxide,3,trametinib dimethyl sulfoxide
+afatinib dimaleate,3,afatinib dimaleate
+erlotinib hydrochloride,3,erlotinib hydrochloride
+ruxolitinib phosphate,3,ruxolitinib phosphate
+bosutinib hydrate,3,bosutinib hydrate
+imatinib mesylate,3,imatinib mesylate
+nilotinib hydrochloride hydrate,3,nilotinib hydrochloride hydrate
+ponatinib hydrochloride,3,ponatinib hydrochloride
+lapatinib ditosylate,3,lapatinib ditosylate
+cabozantinib s-malate,3,cabozantinib s-malate
+pazopanib hydrochloride,3,pazopanib hydrochloride
+regorafenib hydrate,3,regorafenib hydrate
+sorafenib tosylate,3,sorafenib tosylate
+sunitinib malate,3,sunitinib malate
+tretinoin tocoferil,3,tretinoin tocoferil
+fludarabine phosphate,3,fludarabine phosphate
+folinic acid,3,folinic acid
+leucovorin calcium,3,leucovorin calcium
+folinic acid calcium salt pentahydrate,3,folinic acid calcium salt pentahydrate
+mitoxantrone hydrochloride,3,mitoxantrone hydrochloride
+albendazole oxide,3,albendazole oxide
+artemether - lumefantrine mixt,3,artemether - lumefantrine mixt
+atovaquone - proguanil hydrochloride mixt,3,atovaquone - proguanil hydrochloride mixt
+chloroquine phosphate,3,chloroquine phosphate
+chloroquine hydrochloride,3,chloroquine hydrochloride
+chloroquine sulfate,3,chloroquine sulfate
+hydroxychloroquine sulfate,3,hydroxychloroquine sulfate
+mefloquine hydrochloride,3,mefloquine hydrochloride
+primaquine phosphate,3,primaquine phosphate
+pyrimethamine - sulfadoxine mixt,3,pyrimethamine - sulfadoxine mixt
+quinine ethylcarbonate,3,quinine ethylcarbonate
+quinine hydrochloride hydrate,3,quinine hydrochloride hydrate
+quinine sulfate,3,quinine sulfate
+quinine ascorbate,3,quinine ascorbate
+quinine dihydrochloride,3,quinine dihydrochloride
+pentamidine isethionate,3,pentamidine isethionate
+benzatropine,3,benzatropine
+benztropine mesylate,3,benztropine mesylate
+trihexyphenidyl hydrochloride,3,trihexyphenidyl hydrochloride
+apomorphine hydrochloride,3,apomorphine hydrochloride
+bromocriptine mesylate,3,bromocriptine mesylate
+pramipexole hydrochloride,3,pramipexole hydrochloride
+ropinirole hydrochloride,3,ropinirole hydrochloride
+carbidopa hydrate - levodopa mixt,3,carbidopa hydrate - levodopa mixt
+rasagiline mesylate,3,rasagiline mesylate
+amantadine hydrochloride,3,amantadine hydrochloride
+fluphenazine hydrochloride,3,fluphenazine hydrochloride
+fluphenazine enanthate,3,fluphenazine enanthate
+fluphenazine decanoate,3,fluphenazine decanoate
+fluphenazine maleate,3,fluphenazine maleate
+haloperidol decanoate,3,haloperidol decanoate
+haloperidol lactate,3,haloperidol lactate
+loxapine succinate,3,loxapine succinate
+loxapine hydrochloride,3,loxapine hydrochloride
+thioridazine hydrochloride,3,thioridazine hydrochloride
+thiothixene hydrochloride,3,thiothixene hydrochloride
+trifluoperazine hydrochloride,3,trifluoperazine hydrochloride
+trifluoperazine maleate,3,trifluoperazine maleate
+asenapine maleate,3,asenapine maleate
+lurasidone hydrochloride,3,lurasidone hydrochloride
+olanzapine pamoate,3,olanzapine pamoate
+paliperidone palmitate,3,paliperidone palmitate
+ziprasidone hydrochloride,3,ziprasidone hydrochloride
+ziprasidone mesylate,3,ziprasidone mesylate
+foscarnet sodium,3,foscarnet sodium
+foscarnet sodium hydrate,3,foscarnet sodium hydrate
+ganciclovir sodium,3,ganciclovir sodium
+valganciclovir hydrochloride,3,valganciclovir hydrochloride
+adefovir dipivoxil,3,adefovir dipivoxil
+tenofovir disoproxil fumarate,3,tenofovir disoproxil fumarate
+tenofovir alafenamide,3,tenofovir alafenamide
+tenofovir alafenamide fumarate,3,tenofovir alafenamide fumarate
+interferon alfa-2b,3,interferon alfa-2b
+simeprevir sodium,3,simeprevir sodium
+acyclovir sodium,3,acyclovir sodium
+penciclovir sodium,3,penciclovir sodium
+valaciclovir,3,valaciclovir
+valacyclovir hydrochloride,3,valacyclovir hydrochloride
+delavirdine mesylate,3,delavirdine mesylate
+rilpivirine hydrochloride,3,rilpivirine hydrochloride
+abacavir sulfate,3,abacavir sulfate
+abacavir succinate,3,abacavir succinate
+abacavir sulfate - lamivudine mixt,3,abacavir sulfate - lamivudine mixt
+emtricitabine - tenofovir disoproxil mixt,3,emtricitabine - tenofovir disoproxil mixt
+zidovudine - lamivudine mixt,3,zidovudine - lamivudine mixt
+atazanavir sulfate,3,atazanavir sulfate
+darunavir ethanolate,3,darunavir ethanolate
+fosamprenavir calcium hydrate,3,fosamprenavir calcium hydrate
+fosamprenavir calcium,3,fosamprenavir calcium
+fosamprenavir sodium,3,fosamprenavir sodium
+indinavir sulfate,3,indinavir sulfate
+indinavir sulfate ethanolate,3,indinavir sulfate ethanolate
+lopinavir mixture with ritonavir,3,lopinavir mixture with ritonavir
+nelfinavir mesylate,3,nelfinavir mesylate
+saquinavir mesylate,3,saquinavir mesylate
+tipranavir disodium,3,tipranavir disodium
+dolutegravir sodium,3,dolutegravir sodium
+raltegravir potassium,3,raltegravir potassium
+oseltamivir phosphate,3,oseltamivir phosphate
+rimantadine hydrochloride,3,rimantadine hydrochloride
+zanamivir hydrate,3,zanamivir hydrate
+chlordiazepoxide hydrochloride,3,chlordiazepoxide hydrochloride
+buspirone hydrochloride,3,buspirone hydrochloride
+lithium carbonate,3,lithium carbonate
+lithium citrate,3,lithium citrate
+lithium hydroxide,3,lithium hydroxide
+lithium acetate,3,lithium acetate
+lithium bromide,3,lithium bromide
+lithium gluconate,3,lithium gluconate
+lithium sulfate,3,lithium sulfate
+pramlintide acetate,3,pramlintide acetate
+metformin hydrochloride,3,metformin hydrochloride
+colesevelam hydrochloride,3,colesevelam hydrochloride
+alogliptin benzoate,3,alogliptin benzoate
+saxagliptin hydrate,3,saxagliptin hydrate
+saxagliptin hydrochloride,3,saxagliptin hydrochloride
+sitagliptin phosphate,3,sitagliptin phosphate
+"tolbutamide sodium, sterile",3,"tolbutamide sodium, sterile"
+pioglitazone hydrochloride,3,pioglitazone hydrochloride
+rosiglitazone maleate,3,rosiglitazone maleate
+glucagon hydrochloride,3,glucagon hydrochloride
+insulin human,3,insulin human
+"insulin human, isophane",3,"insulin human, isophane"
+"insulin, isophane",3,"insulin, isophane"
+dabigatran etexilate,3,dabigatran etexilate
+dabigatran etexilate mesylate,3,dabigatran etexilate mesylate
+fondaparinux sodium,3,fondaparinux sodium
+dalteparin sodium,3,dalteparin sodium
+enoxaparin sodium,3,enoxaparin sodium
+warfarin sodium,3,warfarin sodium
+warfarin potassium,3,warfarin potassium
+anagrelide hydrochloride,3,anagrelide hydrochloride
+anagrelide hydrochloride hydrate,3,anagrelide hydrochloride hydrate
+clopidogrel bisulfate,3,clopidogrel bisulfate
+prasugrel hydrochloride,3,prasugrel hydrochloride
+ticlopidine hydrochloride,3,ticlopidine hydrochloride
+clonidine hydrochloride,3,clonidine hydrochloride
+guanfacine hydrochloride,3,guanfacine hydrochloride
+methyldopate hydrochloride,3,methyldopate hydrochloride
+midodrine hydrochloride,3,midodrine hydrochloride
+phenylephrine hydrochloride,3,phenylephrine hydrochloride
+phenylephrine tartrate,3,phenylephrine tartrate
+phenylephrine bitartrate,3,phenylephrine bitartrate
+doxazosin mesylate,3,doxazosin mesylate
+phenoxybenzamine hydrochloride,3,phenoxybenzamine hydrochloride
+prazosin hydrochloride,3,prazosin hydrochloride
+terazosin hydrochloride,3,terazosin hydrochloride
+benazepril hydrochloride,3,benazepril hydrochloride
+enalapril maleate,3,enalapril maleate
+fosinopril sodium,3,fosinopril sodium
+moexipril hydrochloride,3,moexipril hydrochloride
+perindopril erbumine,3,perindopril erbumine
+quinapril hydrochloride,3,quinapril hydrochloride
+azilsartan medoxomil,3,azilsartan medoxomil
+azilsartan kamedoxomil,3,azilsartan kamedoxomil
+candesartan cilexetil,3,candesartan cilexetil
+eprosartan mesylate,3,eprosartan mesylate
+losartan potassium,3,losartan potassium
+olmesartan medoxomil,3,olmesartan medoxomil
+amiodarone hydrochloride,3,amiodarone hydrochloride
+disopyramide phosphate,3,disopyramide phosphate
+dronedarone hydrochloride,3,dronedarone hydrochloride
+flecainide acetate,3,flecainide acetate
+mexiletine hydrochloride,3,mexiletine hydrochloride
+procainamide hydrochloride,3,procainamide hydrochloride
+propafenone hydrochloride,3,propafenone hydrochloride
+quinidine gluconate,3,quinidine gluconate
+quinidine polygalacturonate,3,quinidine polygalacturonate
+quinidine sulfate,3,quinidine sulfate
+quinidine phenylethylbarbiturate,3,quinidine phenylethylbarbiturate
+sotalol hydrochloride,3,sotalol hydrochloride
+acebutolol hydrochloride,3,acebutolol hydrochloride
+betaxolol hydrochloride,3,betaxolol hydrochloride
+bisoprolol fumarate,3,bisoprolol fumarate
+carvedilol phosphate,3,carvedilol phosphate
+labetalol hydrochloride,3,labetalol hydrochloride
+metoprolol tartrate,3,metoprolol tartrate
+metoprolol succinate,3,metoprolol succinate
+metoprolol fumarate,3,metoprolol fumarate
+nebivolol hydrochloride,3,nebivolol hydrochloride
+penbutolol sulfate,3,penbutolol sulfate
+propranolol hydrochloride,3,propranolol hydrochloride
+amlodipine besylate,3,amlodipine besylate
+amlodipine maleate,3,amlodipine maleate
+nicardipine hydrochloride,3,nicardipine hydrochloride
+diltiazem hydrochloride,3,diltiazem hydrochloride
+diltiazem malate,3,diltiazem malate
+verapamil hydrochloride,3,verapamil hydrochloride
+acetazolamide sodium,3,acetazolamide sodium
+ethacrynic acid,3,ethacrynic acid
+ethacrynate sodium,3,ethacrynate sodium
+sodium furosemide,3,sodium furosemide
+furosemide diolamine,3,furosemide diolamine
+amiloride hydrochloride,3,amiloride hydrochloride
+chlorothiazide sodium,3,chlorothiazide sodium
+indapamide hydrate,3,indapamide hydrate
+fenofibrate,3,fenofibrate
+atorvastatin calcium anhydorous,3,atorvastatin calcium anhydorous
+atorvastatin calcium,3,atorvastatin calcium
+fluvastatin sodium,3,fluvastatin sodium
+pitavastatin calcium,3,pitavastatin calcium
+pitavastatin calcium hydrate,3,pitavastatin calcium hydrate
+pravastatin sodium,3,pravastatin sodium
+rosuvastatin calcium,3,rosuvastatin calcium
+cholestyramine resin,3,cholestyramine resin
+colestipol hydrochloride,3,colestipol hydrochloride
+lomitapide mesylate,3,lomitapide mesylate
+mipomersen sodium,3,mipomersen sodium
+hydralazine hydrochloride,3,hydralazine hydrochloride
+hydralazine polistirex,3,hydralazine polistirex
+aliskiren fumarate,3,aliskiren fumarate
+ranolazine hydrochloride,3,ranolazine hydrochloride
+dextroamphetamine sulfate,3,dextroamphetamine sulfate
+lisdexamfetamine dimesylate,3,lisdexamfetamine dimesylate
+metamfetamine,3,metamfetamine
+methamphetamine hydrochloride,3,methamphetamine hydrochloride
+atomoxetine hydrochloride,3,atomoxetine hydrochloride
+dexmethylphenidate hydrochloride,3,dexmethylphenidate hydrochloride
+methylphenidate hydrochloride,3,methylphenidate hydrochloride
+milnacipran hydrochloride,3,milnacipran hydrochloride
+fingolimod hydrochloride,3,fingolimod hydrochloride
+glatiramer acetate,3,glatiramer acetate
+dextromethorphan hydrobromide and quinidine sulfate,3,dextromethorphan hydrobromide and quinidine sulfate
+methylatropine nitrate,3,methylatropine nitrate
+atropine methylbromide,3,atropine methylbromide
+atropine oxide hydrochloride,3,atropine oxide hydrochloride
+atropine oxide,3,atropine oxide
+atropine sulfate,3,atropine sulfate
+dicycloverine,3,dicycloverine
+dicyclomine hydrochloride,3,dicyclomine hydrochloride
+mepenzolate bromide,3,mepenzolate bromide
+methscopolamine bromide,3,methscopolamine bromide
+scopolamine butylbromide,3,scopolamine butylbromide
+cimetidine hydrochloride,3,cimetidine hydrochloride
+ranitidine bismuth citrate,3,ranitidine bismuth citrate
+ranitidine hydrochloride,3,ranitidine hydrochloride
+alosetron hydrochloride,3,alosetron hydrochloride
+linaclotide acetate,3,linaclotide acetate
+esomeprazole magnesium,3,esomeprazole magnesium
+esomeprazole sodium,3,esomeprazole sodium
+esomeprazole potassium,3,esomeprazole potassium
+esomeprazole strontium,3,esomeprazole strontium
+omeprazole sodium,3,omeprazole sodium
+omeprazole sodium injection,3,omeprazole sodium injection
+omeprazole magnesium,3,omeprazole magnesium
+pantoprazole sodium,3,pantoprazole sodium
+rabeprazole sodium,3,rabeprazole sodium
+atropine sulfate - diphenoxylate hydrochloride mixt,3,atropine sulfate - diphenoxylate hydrochloride mixt
+loperamide hydrochloride,3,loperamide hydrochloride
+loperamide oxide,3,loperamide oxide
+methylnaltrexone bromide,3,methylnaltrexone bromide
+darifenacin hydrobromide,3,darifenacin hydrobromide
+fesoterodine fumarate,3,fesoterodine fumarate
+flavoxate hydrochloride,3,flavoxate hydrochloride
+oxybutynin chloride,3,oxybutynin chloride
+solifenacin succinate,3,solifenacin succinate
+tolterodine tartrate,3,tolterodine tartrate
+trospium chloride,3,trospium chloride
+alfuzosin hydrochloride,3,alfuzosin hydrochloride
+tamsulosin hydrochloride,3,tamsulosin hydrochloride
+lanthanum carbonate,3,lanthanum carbonate
+sevelamer hydrochloride,3,sevelamer hydrochloride
+sevelamer carbonate,3,sevelamer carbonate
+bethanechol chloride,3,bethanechol chloride
+penicillamine hydrochloride,3,penicillamine hydrochloride
+pentosan polysulfate sodium,3,pentosan polysulfate sodium
+testosterone cypionate,3,testosterone cypionate
+testosterone enanthate,3,testosterone enanthate
+testosterone propionate,3,testosterone propionate
+testosterone ketolaurate,3,testosterone ketolaurate
+testosterone phenylacetate,3,testosterone phenylacetate
+testosterone undecanoate,3,testosterone undecanoate
+testosterone decanoate,3,testosterone decanoate
+testosterone phenylpropionate,3,testosterone phenylpropionate
+estradiol valerate,3,estradiol valerate
+estradiol dipropionate,3,estradiol dipropionate
+estradiol benzoate,3,estradiol benzoate
+estradiol acetate,3,estradiol acetate
+estradiol cypionate,3,estradiol cypionate
+estradiol enanthate,3,estradiol enanthate
+estradiol undecylate,3,estradiol undecylate
+estradiol hemihydrate,3,estradiol hemihydrate
+estradiol 17 beta-hemisuccinate,3,estradiol 17 beta-hemisuccinate
+"synthetic conjugated estrogens, b",3,"synthetic conjugated estrogens, b"
+estrone sodium sulfate,3,estrone sodium sulfate
+ethinylestradiol propanesulfonate,3,ethinylestradiol propanesulfonate
+ulipristal acetate,3,ulipristal acetate
+medroxyprogesterone acetate,3,medroxyprogesterone acetate
+megestrol acetate,3,megestrol acetate
+norethindrone acetate,3,norethindrone acetate
+raloxifene hydrochloride,3,raloxifene hydrochloride
+raloxifene hydrochloride hydrate,3,raloxifene hydrochloride hydrate
+icatibant acetate,3,icatibant acetate
+mycophenolate mofetil,3,mycophenolate mofetil
+mycophenolate mofetil hydrochloride,3,mycophenolate mofetil hydrochloride
+mycophenolate sodium,3,mycophenolate sodium
+tofacitinib citrate,3,tofacitinib citrate
+methotrexate sodium,3,methotrexate sodium
+azathioprine sodium,3,azathioprine sodium
+"anti-human thymocyte immunoglobulin, equine",3,"anti-human thymocyte immunoglobulin, equine"
+"anti-human thymocyte immunoglobulin, rabbit",3,"anti-human thymocyte immunoglobulin, rabbit"
+immune globulin intravenous pentetate,3,immune globulin intravenous pentetate
+interferon gamma-1b,3,interferon gamma-1b
+adsorbed diphtheria-tetanus combined toxoid,3,adsorbed diphtheria-tetanus combined toxoid
+adsorbed diphtheria-purified pertussis-tetanus combined vaccine,3,adsorbed diphtheria-purified pertussis-tetanus combined vaccine
+adsorbed diphtheria-purified pertussis-tetanus-inactivated polio combined vaccine,3,adsorbed diphtheria-purified pertussis-tetanus-inactivated polio combined vaccine
+haemophilus influenzae type b conjugate vaccine,3,haemophilus influenzae type b conjugate vaccine
+adsorbed hepatitis b vaccine,3,adsorbed hepatitis b vaccine
+japanese encephalitis vaccine,3,japanese encephalitis vaccine
+freeze-dried live attenuated measles vaccine,3,freeze-dried live attenuated measles vaccine
+meningococcal polysaccharide vaccine group a,3,meningococcal polysaccharide vaccine group a
+meningococcal polysaccharide vaccine group c,3,meningococcal polysaccharide vaccine group c
+recombinant adsorbed bivalent human papillomavirus-like particle vaccine,3,recombinant adsorbed bivalent human papillomavirus-like particle vaccine
+recombinant adsorbed quadrivalent human papillomavirus virus-like particle vaccine,3,recombinant adsorbed quadrivalent human papillomavirus virus-like particle vaccine
+rubella virus vaccine live,3,rubella virus vaccine live
+freeze-dried live attenuated rubella vaccine,3,freeze-dried live attenuated rubella vaccine
+typhoid vaccine,3,typhoid vaccine
+freeze-dried live attenuated varicella vaccine,3,freeze-dried live attenuated varicella vaccine
+betamethasone sodium phosphate,3,betamethasone sodium phosphate
+betamethasone valerate,3,betamethasone valerate
+betamethasone acetate,3,betamethasone acetate
+betamethasone dipropionate,3,betamethasone dipropionate
+betamethasone butyrate propionate,3,betamethasone butyrate propionate
+betamethasone benzoate,3,betamethasone benzoate
+cortisone acetate,3,cortisone acetate
+dexamethasone sodium phosphate,3,dexamethasone sodium phosphate
+dexamethasone metasulfobenzoate sodium,3,dexamethasone metasulfobenzoate sodium
+dexamethasone palmitate,3,dexamethasone palmitate
+dexamethasone dipropionate,3,dexamethasone dipropionate
+dexamethasone valerate,3,dexamethasone valerate
+dexamethasone acetate,3,dexamethasone acetate
+dexamethasone acefurate,3,dexamethasone acefurate
+dexamethasone beloxil,3,dexamethasone beloxil
+dexamethasone cipecilate,3,dexamethasone cipecilate
+dexamethasone 21-acetate,3,dexamethasone 21-acetate
+dexamethasone isonicotinate,3,dexamethasone isonicotinate
+dexamethasone sodium hemisulfate,3,dexamethasone sodium hemisulfate
+dexamethasone 21-tebutate,3,dexamethasone 21-tebutate
+dexamethasone 21-valerate,3,dexamethasone 21-valerate
+dexamethasone phenylpropionate,3,dexamethasone phenylpropionate
+dexamethasone phosphate,3,dexamethasone phosphate
+hydrocortisone acetate,3,hydrocortisone acetate
+hydrocortisone cypionate,3,hydrocortisone cypionate
+hydrocortisone sodium phosphate,3,hydrocortisone sodium phosphate
+hydrocortisone sodium succinate,3,hydrocortisone sodium succinate
+hydrocortisone succinate,3,hydrocortisone succinate
+hydrocortisone butyrate,3,hydrocortisone butyrate
+hydrocortisone probutate,3,hydrocortisone probutate
+hydrocortisone valerate,3,hydrocortisone valerate
+hydrocortisone hemisuccinate,3,hydrocortisone hemisuccinate
+hydrocortisone aceponate,3,hydrocortisone aceponate
+hydrocortisone caproate,3,hydrocortisone caproate
+methylprednisolone sodium succinate,3,methylprednisolone sodium succinate
+methylprednisolone acetate,3,methylprednisolone acetate
+methylprednisolone hemisuccinate,3,methylprednisolone hemisuccinate
+methylprednisolone sodium phosphate,3,methylprednisolone sodium phosphate
+methylprednisolone suleptanate,3,methylprednisolone suleptanate
+methylprednisolone aceponate,3,methylprednisolone aceponate
+prednisolone acetate,3,prednisolone acetate
+prednisolone sodium phosphate,3,prednisolone sodium phosphate
+prednisolone tebutate,3,prednisolone tebutate
+prednisolone sodium succinate,3,prednisolone sodium succinate
+prednisolone farnesylate,3,prednisolone farnesylate
+prednisolone hemisuccinate,3,prednisolone hemisuccinate
+prednisolone valerate acetate,3,prednisolone valerate acetate
+prednisolone pivalate,3,prednisolone pivalate
+prednisolone sodium metazoate,3,prednisolone sodium metazoate
+prednisolone 21-,3,prednisolone 21-
+prednisolone steaglate,3,prednisolone steaglate
+prednisone acetate,3,prednisone acetate
+triamcinolone acetonide,3,triamcinolone acetonide
+triamcinolone diacetate,3,triamcinolone diacetate
+triamcinolone hexacetonide,3,triamcinolone hexacetonide
+triamcinolone acetonide sodium phosphate,3,triamcinolone acetonide sodium phosphate
+balsalazide disodium,3,balsalazide disodium
+olsalazine sodium,3,olsalazine sodium
+azelastine hydrochloride,3,azelastine hydrochloride
+bepotastine besylate,3,bepotastine besylate
+cromolyn sodium,3,cromolyn sodium
+emedastine difumarate,3,emedastine difumarate
+epinastine hydrochloride,3,epinastine hydrochloride
+lodoxamide ethyl,3,lodoxamide ethyl
+lodoxamide tromethamine,3,lodoxamide tromethamine
+nedocromil sodium,3,nedocromil sodium
+nedocromil calcium,3,nedocromil calcium
+olopatadine hydrochloride,3,olopatadine hydrochloride
+apraclonidine hydrochloride,3,apraclonidine hydrochloride
+brimonidine tartrate,3,brimonidine tartrate
+dipivefrin hydrochloride,3,dipivefrin hydrochloride
+carteolol hydrochloride,3,carteolol hydrochloride
+levobunolol hydrochloride,3,levobunolol hydrochloride
+metipranolol hydrochloride,3,metipranolol hydrochloride
+dorzolamide hydrochloride,3,dorzolamide hydrochloride
+echothiophate iodide,3,echothiophate iodide
+pilocarpine hydrochloride,3,pilocarpine hydrochloride
+pilocarpine nitrate,3,pilocarpine nitrate
+pilocarpine borate,3,pilocarpine borate
+fluocinolone acetonide,3,fluocinolone acetonide
+loteprednol etabonate,3,loteprednol etabonate
+bromfenac sodium,3,bromfenac sodium
+hydroxypropylcellulose,3,hydroxypropylcellulose
+naphazoline hydrochloride,3,naphazoline hydrochloride
+naphazoline nitrate,3,naphazoline nitrate
+cetirizine hydrochloride,3,cetirizine hydrochloride
+levocetirizine dihydrochloride,3,levocetirizine dihydrochloride
+carbinoxamine maleate,3,carbinoxamine maleate
+carbinoxamine diphenyldisulfonate,3,carbinoxamine diphenyldisulfonate
+clemastine fumarate,3,clemastine fumarate
+cyproheptadine hydrochloride,3,cyproheptadine hydrochloride
+beclomethasone dipropionate,3,beclomethasone dipropionate
+flunisolide acetate,3,flunisolide acetate
+fluticasone propionate,3,fluticasone propionate
+fluticasone furoate,3,fluticasone furoate
+mometasone furoate,3,mometasone furoate
+mometasone furoate hydrate,3,mometasone furoate hydrate
+montelukast sodium,3,montelukast sodium
+aclidinium bromide,3,aclidinium bromide
+ipratropium bromide,3,ipratropium bromide
+tiotropium bromide hydrate,3,tiotropium bromide hydrate
+albuterol sulfate,3,albuterol sulfate
+arformoterol tartrate,3,arformoterol tartrate
+ephedrine hydrochloride,3,ephedrine hydrochloride
+ephedrine sulfate,3,ephedrine sulfate
+epinephrine hydrochloride,3,epinephrine hydrochloride
+epinephrine bitartrate,3,epinephrine bitartrate
+formoterol fumarate,3,formoterol fumarate
+formoterol fumarate hydrate,3,formoterol fumarate hydrate
+indacaterol maleate,3,indacaterol maleate
+levalbuterol hydrochloride,3,levalbuterol hydrochloride
+levalbuterol sulfate,3,levalbuterol sulfate
+levalbuterol tartrate,3,levalbuterol tartrate
+orciprenaline,3,orciprenaline
+metaproterenol polistirex,3,metaproterenol polistirex
+metaproterenol sulfate,3,metaproterenol sulfate
+salmeterol xinafoate,3,salmeterol xinafoate
+terbutaline sulfate,3,terbutaline sulfate
+aminophylline hydrate,3,aminophylline hydrate
+theophylline sodium acetate,3,theophylline sodium acetate
+theophylline sodium glycinate,3,theophylline sodium glycinate
+diisobutylaminobenzoyloxypropyl theophylline,3,diisobutylaminobenzoyloxypropyl theophylline
+sildenafil citrate,3,sildenafil citrate
+epoprostenol sodium,3,epoprostenol sodium
+iloprost tromethamine,3,iloprost tromethamine
+treprostinil monosodium salt,3,treprostinil monosodium salt
+acetylcysteine sodium salt,3,acetylcysteine sodium salt
+budesonide - formoterol fumarate dihydrate mixt,3,budesonide - formoterol fumarate dihydrate mixt
+fluticasone furoate - vilanterol trifenatate mixt,3,fluticasone furoate - vilanterol trifenatate mixt
+salmeterol xinafoate - fluticasone propionate mixt,3,salmeterol xinafoate - fluticasone propionate mixt
+tetryzoline,3,tetryzoline
+tetrahydrozoline nitrate,3,tetrahydrozoline nitrate
+tetrahydrozoline hydrochloride,3,tetrahydrozoline hydrochloride
+flurazepam hydrochloride,3,flurazepam hydrochloride
+zolpidem tartrate,3,zolpidem tartrate
+trientine hydrochloride,3,trientine hydrochloride
+ammonium chloride,3,ammonium chloride
+ammonium carbonate,3,ammonium carbonate
+ammonium phosphate,3,ammonium phosphate
+ammonium sulfate,3,ammonium sulfate
+chromic chloride,3,chromic chloride
+chromic chloride cr 51,3,chromic chloride cr 52
+chromic phosphate cr 51,3,chromic phosphate cr 52
+chromic phosphate p 32,3,chromic phosphate p 33
+sodium fluoride,3,sodium fluoride
+silver diammine fluoride,3,silver diammine fluoride
+sodium fluoride f 18,3,sodium fluoride f 19
+stannous fluoride,3,stannous fluoride
+magnesium aluminometasilicate,3,magnesium aluminometasilicate
+magnesium aluminum silicate,3,magnesium aluminum silicate
+magnesium l-aspartate,3,magnesium l-aspartate
+magnesium carbonate,3,magnesium carbonate
+magnesium chloride,3,magnesium chloride
+magnesium citrate,3,magnesium citrate
+magnesium gluconate,3,magnesium gluconate
+magnesium hydroxide,3,magnesium hydroxide
+magnesium oxide,3,magnesium oxide
+magnesium phosphate,3,magnesium phosphate
+magnesium salicylate,3,magnesium salicylate
+magnesium silicate,3,magnesium silicate
+magnesium sulfate,3,magnesium sulfate
+magnesium stearate,3,magnesium stearate
+magnesium trisilicate,3,magnesium trisilicate
+manganese chloride,3,manganese chloride
+manganese gluconate,3,manganese gluconate
+manganese sulfate,3,manganese sulfate
+potassium acetate,3,potassium acetate
+potassium bicarbonate,3,potassium bicarbonate
+potassium carbonate,3,potassium carbonate
+potassium chloride,3,potassium chloride
+potassium citrate,3,potassium citrate
+potassium gluconate,3,potassium gluconate
+"potassium phosphate, monobasic",3,"potassium phosphate, monobasic"
+"potassium phosphate, dibasic",3,"potassium phosphate, dibasic"
+potassium metaphosphate,3,potassium metaphosphate
+potassium citrate - sodium citrate hydrate mixt,3,potassium citrate - sodium citrate hydrate mixt
+selenium sulfide,3,selenium sulfide
+sodium acetate,3,sodium acetate
+sodium bicarbonate,3,sodium bicarbonate
+dried sodium carbonate,3,dried sodium carbonate
+sodium carbonate hydrate,3,sodium carbonate hydrate
+sodium chloride,3,sodium chloride
+isotonic sodium chloride solution,3,isotonic sodium chloride solution
+sodium lactate,3,sodium lactate
+sodium ferric gluconate complex,3,sodium ferric gluconate complex
+"sodium phosphate, monobasic",3,"sodium phosphate, monobasic"
+"sodium phosphate, dibasic",3,"sodium phosphate, dibasic"
+dibasic sodium phosphate hydrate,3,dibasic sodium phosphate hydrate
+Acetaminophen,3,Acetaminophen
+ Ibuprofen,3, Ibuprofen
+ Aspirin,3, Aspirin
+ Lipitor,3, Lipitor
+ Metformin,3, Metformin
+ Hydrochlorothiazide,3, Hydrochlorothiazide
+ Amlodipine,3, Amlodipine
+ Lisinopril,3, Lisinopril
+ Synthroid,3, Synthroid
+ Levothyroxine,3, Levothyroxine
+ Atorvastatin,3, Atorvastatin
+ Losartan,3, Losartan
+ Metoprolol,3, Metoprolol
+ Omeprazole,3, Omeprazole
+ Simvastatin,3, Simvastatin
+ Furosemide,3, Furosemide
+ Gabapentin,3, Gabapentin
+ Atenolol,3, Atenolol
+ Clopidogrel,3, Clopidogrel
+ Warfarin,3, Warfarin
+ Alprazolam,3, Alprazolam
+ Carvedilol,3, Carvedilol
+ Diazepam,3, Diazepam
+ Sertraline,3, Sertraline
+ Trazodone,3, Trazodone
+ Escitalopram,3, Escitalopram
+ Bupropion,3, Bupropion
+ Clonazepam,3, Clonazepam
+ Venlafaxine,3, Venlafaxine
+ Fluoxetine,3, Fluoxetine
+ Meloxicam,3, Meloxicam
+ Tamsulosin,3, Tamsulosin
+ Diltiazem,3, Diltiazem
+ Amoxicillin,3, Amoxicillin
+ Topiramate,3, Topiramate
+ Citalopram,3, Citalopram
+ Tramadol,3, Tramadol
+ Levetiracetam,3, Levetiracetam
+ Hydrocodone,3, Hydrocodone
+ Oxycodone,3, Oxycodone
+ Lorazepam,3, Lorazepam
+ Cymbalta,3, Cymbalta
+ Zoloft,3, Zoloft
+ Oxycontin,3, Oxycontin
+ Percocet,3, Percocet
+ Promethazine,3, Promethazine
+ Phentermine,3, Phentermine
+ Adderall,3, Adderall
+ Ritalin,3, Ritalin
+ Xanax,3, Xanax
+ Valium,3, Valium
+ Ambien,3, Ambien
+ Klonopin,3, Klonopin
+ Ultram,3, Ultram
+ Suboxone,3, Suboxone
+ Vicodin,3, Vicodin
+ Restoril,3, Restoril
+ Temazepam,3, Temazepam
+ Desyrel,3, Desyrel
+ Adipex,3, Adipex
+ Lortab,3, Lortab
+ Norco,3, Norco
+ Ativan,3, Ativan
+ Phenobarbital,3, Phenobarbital
+ Hydrocodone,3, Hydrocodone
+ Codeine,3, Codeine
+ Fentanyl,3, Fentanyl
+ Morphine,3, Morphine
+ Methadone,3, Methadone
+ Demerol,3, Demerol
+ Dilaudid,3, Dilaudid
+ Percodan,3, Percodan
+ Propoxyphene,3, Propoxyphene
+ Darvocet,3, Darvocet
+ Darvon,3, Darvon
+ Talwin,3, Talwin
+ Lorcet,3, Lorcet
