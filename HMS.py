@@ -107,8 +107,6 @@ def food_drink_check(): # Apply model
         'EFFECT' : y.effect,
     }
 
-    #Call Cloudant
-
     # #SIMULATION
     # print(user_reply)
     # # print('--------------------------Food:--------------------------\n', json.dumps(y.food, indent = 2))
@@ -206,15 +204,6 @@ def HM_check():
     print(comb_data)
     dbc.create_health_check_doc(comb_data)
     
-
-
-
-# def pet_activity(inputs):
-#     #pet activity here are sentiment and emotion scores
-#     #Inputs must be returned formatted here
-#     pass
-
-
 def main(): #Add arguments for actions 1 or 2
     
     #Action 1: Run the health management checks
