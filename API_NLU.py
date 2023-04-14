@@ -29,10 +29,8 @@ def NLU(sentence):
         language = "en"
                                     ).get_result()
     
-    # print("Here 1")
     #Always Call Continous Monitoring when calling NLU
-    # dbc.create_cm_doc([emotion_score(NLU(sentence))])
-    # print("Here 2")
+    dbc.create_cm_doc([emotion_score(NLU(sentence))])
     # Displaying Results Directly 
     # print(json.dumps(response, indent=2))
     return response
