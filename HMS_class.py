@@ -27,33 +27,12 @@ class Medication:
             elif (res[i]['type'] == 'helpingWith'\
                 and res[i]['arguments'][0]['entities'][0]['type'] == 'MEDICATION'\
                 and res[i]['arguments'][1]['entities'][0]['type'] == 'SYMPTOM'):
-                # print('######---------went here')
-                # a = res[i]['arguments'][0]['entities'][0]['type']
-                # b = res[i]['arguments'][1]['entities'][0]['type']
-                # print("------> a :", a)
-                # print("------> b :", b)
-                # if (\
                     currentSymbol = res[i]['arguments'][1]['entities'][0]['text']
 
-                    # print('Here I found it : ') # I GET THE 'It'
-                    # first_name =  res[i]['arguments'][0]['text'])
-                    # print('first name: --->', res[i]['arguments'][0]['entities'][0]['text'])
-
                     for j in range(len(res)):
-                        # print('Relation: ', res[j]['type'])
-                        # print(res[j]['type'] == 'takenMed')
-                        # print("-------> c: ", res[j]['arguments'][1]['text'])
-                        # print("-------> d: ", res[i]['arguments'][0]['text'])
-                        # print(res[j]['arguments'][1]['text'] ==  res[i]['arguments'][0]['text'])
-                        # print("-------> e: ", res[j]['arguments'][1]['entities'][0]['text'])
-                        # print("-------> f: ", res[i]['arguments'][0]['text'])
-                        # print(res[j]['arguments'][1]['entities'][0]['text'] == res[i]['arguments'][0]['text'])
-                        # print('\n')
-
                         if (res[j]['type'] == 'takingMed'\
                             and (res[j]['arguments'][1]['text'] ==  res[i]['arguments'][0]['text']) 
                                 or res[j]['arguments'][1]['text'] == res[i]['arguments'][0]['entities'][0]['text'] ):
-                            # print('######---------worked here------###')
                             self.symptom.append(self._symptom_structure(res, currentSymbol))
 
                 # MEDCINE first SYMPTOM second
@@ -129,32 +108,22 @@ class Medication:
                 and res[i]['arguments'][1]['entities'][0]['type'] == 'PERSON'):
                 med_text = res[i]['arguments'][0]['entities'][0]['text']
                 self.med_taken.append(self._med_taken_structure(res, med_text))
-            # elif :
-                # Third Case: MEDICATION helpingWith SYMPTOM/DISEASE
-                # and SYMPTOM/DISEASE applyTO PERSON
-                # and not negated condition (eventually)
-                # pass
             else:
                 pass
             
     
     def _get_negated_status(self, res, currentEntity):
         for i in range(len(res)):
-            # print('X:--', currentEntity )
-            # print(res[i]['arguments'][0]['entities'][0]['text'])
             if res[i]['type'] == 'negatedBy'\
                 and (res[i]['arguments'][0]['entities'][0]['text'] == currentEntity\
                     or res[i]['arguments'][0]['text'] == currentEntity):
-                # print('NEGATED BY X')
                 if res[i]['arguments'][1]['entities'][0]['type'] == "STATUS":
                     return True
                 else:
                     print("Model Error")
         else:
             return False
-        
-    # def get_med_taken_status(self):
-    
+            
     def _get_med_effect(self, res):
         ##########################################################################################
         #Returns effects: 1. caused by EFFECT producedBy MEDICATION and MEDICATION applyTo PERSON
@@ -191,19 +160,7 @@ class Medication:
                                 or res[j]['arguments'][0]['text'] == res[i]['arguments'][1]['entities'][0]['text']) 
                             and (res[j]['arguments'][1]['entities'][0]['type']=='PERSON') ): # Considering Pronouns
                             # MEDICATION applyTo PERSON
-                            #maybe there needs to be a part-of check here
                             self.effect.append(self._effect_structure(res, currentSymbol))
-                            # self.effect.append(\
-                            # {
-                            #     'label' : currentSymbol,
-                            #     'specific': [
-                            #         {
-                            #             'labels' : self._get_ENTITY_partOf_ENTITY(res,currentSymbol) #call part-of method (currentSymbol) -> list of all other symbols
-                            #         }
-                            #     ], 
-                            #     'status' : self._get_ENTITY_status(res, currentSymbol, 'EFFECT')                           
-                            # })
-                            
                              
             elif (res[i]['type'] == 'applyTo'\
                 and res[i]['arguments'][0]['entities'][0]['type'] == 'EFFECT'\
@@ -257,7 +214,6 @@ class Medication:
                 else:
                     print('unexpected food class error')
         return partOf_list
-                    #Mitigate recursion unfinite looping error here - if food already part of the list for example
 
     def _not_recorded(self, element, element_type):
         # SEARCHING STRUCTURE FOR REDUNDANCIES 
@@ -310,7 +266,6 @@ class Medication:
             'medication' : element
         }
         return entry
-    # def _delete_redundancies(self):
 
 class Exercise:
     def __init__(self, res):
@@ -322,13 +277,11 @@ class Exercise:
         self.ex_status = self._remove_duplicates(self.ex_status)
         self.ex_time = self._remove_duplicates(self.ex_time)
         # self._get_general_time_entities(res)
-
         # self._get_ex_status(res)
         # self._get_ex_time(self, res)
     
     def _get_exercise(self, res):
         for i in  range(len(res)):
-            # print(res[i]['type']) #Get All Relations
             if res[i]['type'] == 'engagedIn':
                 #Exercuse check here
                 if res[i]['arguments'][1]['entities'][0]['type'] == "EXERCISE":
@@ -346,12 +299,8 @@ class Exercise:
     def _get_ex_status(self, res, currentExercise):
         status = []
         for i in  range(len(res)):
-            # print(res[i]['type'])
             if res[i]['type'] == 'quantifiedBy':
-                # print('OK')
                 #Exercise check here
-                # print(currentExercise)
-                # print(res[i]['arguments'][0]['entities'][0]['text'])
                 if (res[i]['arguments'][0]['entities'][0]['type'] == "EXERCISE")\
                     and (res[i]['arguments'][0]['entities'][0]['text'] == currentExercise\
                          or res[i]['arguments'][0]['text'] == currentExercise):
@@ -363,11 +312,10 @@ class Exercise:
                             status.append("NEGATED " + currentStatus)
                          else:
                             if res[i]['arguments'][1]['entities'][0]['type'] == "STATUS":
-                                # print('here really')
                                 status.append(currentStatus)
         return status
     
-    def _get_ex_time(self, res, exercise_text): #Will need to be refined
+    def _get_ex_time(self, res, exercise_text):
         specific_ex_time = []
         for i in range(len(res)):
             if res[i]['type'] == 'quantifiedBy'\
@@ -391,15 +339,13 @@ class Exercise:
         starting_data = ""
         for i in range(len(res)):
 
-            #Case of multiple TIME quantifiers
+            #Case of multiple TIME quantifiers - TIME quantifiedBy TIME
             if res[i]['type'] == 'quantifiedBy'\
             and res[i]['arguments'][0]['entities'][0]['type'] == 'TIME'\
             and res[i]['arguments'][1]['entities'][0]['type'] == 'TIME' :
                 starting_data = res[i]['arguments'][0]['text']
                 previous_entity = starting_data
                 next_entity = res[i]['arguments'][1]['text']
-                # print("G-1: ", previous_entity)
-                # print("G0: ", next_entity)
                 if self._element_not_in_list(tmp_time_data, previous_entity) == True:
                     tmp_time_data.append(previous_entity)
                 if self._element_not_in_list(tmp_time_data, next_entity) == True:
@@ -414,7 +360,6 @@ class Exercise:
                         if res[j]['type'] == 'quantifiedBy'\
                         and new_entity_type == "TIME"\
                         and next_entity == new_entity:
-                            # print('G1: ', res[j]['arguments'][1]['text'])
                             if self._element_not_in_list(tmp_time_data, res[j]['arguments'][1]['text']) == True:
                                 tmp_time_data.append(res[j]['arguments'][1]['text'])
                             next_entity = res[j]['arguments'][1]['text']
@@ -429,13 +374,12 @@ class Exercise:
                         if res[j]['type'] == 'quantifiedBy'\
                         and new_entity_type == "TIME"\
                         and previous_entity == new_entity:
-                            # print('G2: ', res[j]['arguments'][0]['text'])
                             if self._element_not_in_list(tmp_time_data, res[j]['arguments'][0]['text']) == True:
                                 tmp_time_data.append(res[j]['arguments'][0]['text'])
                             previous_entity = res[j]['arguments'][0]['text']
                             found_new_quantification = True
             
-
+            #TIME quaNtifiedBy QUANTITY
             elif res[i]['type'] == 'quantifiedBy'\
             and res[i]['arguments'][0]['entities'][0]['type'] == 'TIME'\
             and res[i]['arguments'][1]['entities'][0]['type'] ==  'QUANTITY':
@@ -453,11 +397,9 @@ class Exercise:
                     for j in range(len(res)):
                         new_entity = res[j]['arguments'][1]['text']
                         new_entity_type = res[j]['arguments'][1]['entities'][0]['type']
-                        # print('Old: ', next_entity, ', New: ', new_entity)
                         if res[j]['type'] == 'quantifiedBy'\
                         and new_entity_type == "TIME"\
                         and next_entity == new_entity:
-                            # print('G3: ', res[j]['arguments'][0]['text'])
                             if self._element_not_in_list(tmp_time_data, res[j]['arguments'][0]['text']) == True:
                                 tmp_time_data.append(res[j]['arguments'][0]['text'])
                             next_entity = res[j]['arguments'][0]['text']
@@ -477,8 +419,6 @@ class Exercise:
         #_get_negated_status;
         # Method to obtain the negated qualifier of an entity entity
         for i in range(len(res)):
-            # print('X:--', currentEntity )
-            # print(res[i]['arguments'][0]['entities'][0]['text'])
             if res[i]['type'] == 'negatedBy'\
                 and (res[i]['arguments'][0]['entities'][0]['text'] == currentEntity\
                     or res[i]['arguments'][0]['text'] == currentEntity):
@@ -491,6 +431,7 @@ class Exercise:
             return False
 
     def _remove_duplicates(self, data):
+        #Method to remove duplicates
         unique_entries = []
         for item in data:
             if item not in unique_entries:
@@ -498,6 +439,7 @@ class Exercise:
         return unique_entries
 
     def _ex_structure(self, res, element):
+        #Standardising data
         entry = {
             'exercise' : element,
             'status' : self._get_ex_status(res, element), # Exercise Specific
@@ -603,16 +545,13 @@ class Food:
                          #Check for negated status:
                          current_quantity_category = res[i]['arguments'][1]['entities'][0]['type']
                          current_quantity_text = res[i]['arguments'][1]['text'] #May need to pass the second entity text version
-                        #  print('#######################HERE, ',  current_quantity_text)
                          if self._get_negated_status(res, current_quantity_text) == True:
-                            # quantity.append("NEGATED " + currentQuantity)
                             if len(self._get_ENITTY_quantity(res, current_quantity_text, 'TIME')) > 0:
                                 quantity.append(self._get_ENITTY_quantity(res, current_quantity_text, 'TIME')[0] + " NEGATED " + current_quantity_text)
                             else:
                                 quantity.append(" NEGATED " + current_quantity_category)
     
                          else:
-                            # print('#######################HERE 2, ',  current_quantity_text)
                             if res[i]['arguments'][1]['entities'][0]['type'] == "TIME":
 
                                 quantity.append(current_quantity_text)
@@ -624,8 +563,6 @@ class Food:
 
     def _get_negated_status(self, res, currentEntity):
         for i in range(len(res)):
-            # print('X:--', currentEntity )
-            # print(res[i]['arguments'][0]['entities'][0]['text'])
             if res[i]['type'] == 'negatedBy'\
                 and (res[i]['arguments'][0]['entities'][0]['text'] == currentEntity\
                     or res[i]['arguments'][0]['text'] == currentEntity):
@@ -652,117 +589,6 @@ class Food:
         }
         return entry    
 
-# GOING UP AND DOWN CHAIN  -> USED LATER MAYBE
-##############################################################
- # for j in range(len(res)):
-                #     #Case of multiple EFFECT quantifiers
-                #     if res[j]['type'] == 'partOf'\
-                #     and res[j]['arguments'][0]['entities'][0]['type'] == 'EFFECT'\
-                #     and res[j]['arguments'][1]['entities'][0]['type'] == 'EFFECT' :
-                #         starting_data = res[j]['arguments'][0]['text']
-                #         previous_entity = starting_data
-                #         next_entity = res[j]['arguments'][1]['text']
-                #         # print('------starting_data', starting_data)
-                #         # print('------next_data', next_entity)
-                #         if self._element_not_in_list(tmp_effect_data, next_entity) == True:   
-                #             #Problem with this structure: What if its not part of something else
-                #             #maybe i put the status of the first effect and leave the specific as a pointer of sorts?
-                #             tmp_effect_data.append(
-                #                 {
-                #                     next_entity : [
-                #                         {
-                #                         'specific' : starting_data
-                #                         # 'status' : [self._get_ENTITY_status(res, starting_data, 'EFFECT')] 
-                #                         }
-                #                     ],
-                #                     'status' : [self._get_ENTITY_status(res, next_entity, 'EFFECT')] 
-                #                 }
-                #             )
-                        
-                #         # print('GENERAL 1 -----', tmp_effect_data)
-                #         found_new_quantification = True
-                #         while (found_new_quantification == True): #Going down the chain
-                #             found_new_quantification = False
-                #             for k in range(len(res)):
-                #                 new_entity = res[k]['arguments'][0]['text']
-                #                 new_entity_type = res[k]['arguments'][0]['entities'][0]['type']
-                #                 if res[k]['type'] == 'partOf'\
-                #                 and new_entity_type == "EFFECT"\
-                #                 and next_entity == new_entity:  #Parent is now Child
-                #                     next_entity = res[k]['arguments'][1]['text']
-                #                     if self._element_not_in_list(tmp_effect_data, next_entity) == True:
-                #                         tmp_effect_data.append(
-                #                             {
-                #                                 next_entity : [
-                #                                     {
-                #                                     'specific' : new_entity,
-                #                                     'status' : [self._get_ENTITY_status(res, new_entity, 'EFFECT')] 
-                #                                     }
-                #                                 ],
-                #                                 'status' : [self._get_ENTITY_status(res, next_entity, 'EFFECT')] 
-                #                             }
-                #                         )
-                #                     found_new_quantification = True
-                        
-                #         found_new_quantification = True
-                #         while (found_new_quantification == True): #Going up the chain
-                #             found_new_quantification = False
-                #             for k in range(len(res)):
-                #                 new_entity = res[k]['arguments'][1]['text']
-                #                 new_entity_type = res[k]['arguments'][1]['entities'][0]['type']
-                #                 if res[k]['type'] == 'partOf'\
-                #                 and new_entity_type == "EFFECT"\
-                #                 and previous_entity == new_entity: #Child is now Parent
-                #                     previous_entity = res[k]['arguments'][0]['text']
-                #                     if self._element_not_in_list(tmp_effect_data, previous_entity) == True:
-                #                         tmp_effect_data.append(
-                #                             {
-                #                                 new_entity : [
-                #                                     {
-                #                                     'specific' : previous_entity,
-                #                                     'status' : [self._get_ENTITY_status(res, previous_entity, 'EFFECT')] 
-                #                                     }
-                #                                 ],
-                #                                 'status' : [self._get_ENTITY_status(res, new_entity, 'EFFECT')] 
-                #                             }
-                #                         )
-                #                     found_new_quantification = True
-                
-                # self.effect.append(tmp_effect_data)
-##############################################################
-
-# FORGOT WHAT THIS DOES, DELETE THIS IF DEPRECATED
-##############################################################
-    
-    # def _get_symptom_status(self, res, currentSymbol):
-          # DEPRECATED
-    #     # print('Status HEre 3 --', status)
-    #     status = []
-    #     for i in  range(len(res)):
-    #         # print(res[i]['type'])
-    #         if res[i]['type'] == 'quantifiedBy':
-    #             # print('OK')
-    #             #Medication check here
-    #             # print(currentSymbol)
-    #             # print(res[i]['arguments'][0]['entities'][0]['text'])
-    #             if (res[i]['arguments'][0]['entities'][0]['type'] == "SYMPTOM")\
-    #                 and (res[i]['arguments'][0]['entities'][0]['text'] == currentSymbol\
-    #                      or res[i]['arguments'][0]['text'] == currentSymbol):
-    #                      #Located correspondoing symptom to be qualified/quantified
-    #                      #Check for negated status:
-    #                      currentStatus = res[i]['arguments'][1]['entities'][0]['disambiguation']['subtype'][0]
-    #                      currentStatusText = res[i]['arguments'][1]['text'] #May need to pass the second entity text version
-    #                      print()
-    #                      if self._get_negated_status(res, currentStatusText) == True:
-    #                         status.append("NEGATED " + currentStatus)
-    #                      else:
-    #                         if res[i]['arguments'][1]['entities'][0]['type'] == "STATUS":
-    #                             print('here really')
-    #                             status.append(currentStatus)
-    #     print('Status HEre --', status)
-    #     return status
-##############################################################
-
 
 # def main(sentence):
 #     #Calling API_HMC_NLU's main function
@@ -772,19 +598,19 @@ class Food:
 #     with open('relationships.json', 'w', encoding='utf-8') as f:
 #         json.dump(response, f, ensure_ascii=False, indent=4)
 
-    #Printing the model's output in the console
-    # print(json.dumps(response, indent=2))
+#Printing the model's output in the console
+# print(json.dumps(response, indent=2))
 
-    # print('### Veryfing Alogorithm Works ###')    
-    # x = Medication(response)
-    # print('--------------------------Med_taken:--------------------------\n', json.dumps(x.med_taken, indent = 2))
-    # print('--------------------------Symptom:--------------------------\n', json.dumps(x.symptom, indent = 2))
-    # print('--------------------------Effects:--------------------------\n', json.dumps(x.effect, indent = 2))  #Here
+# print('### Veryfing Alogorithm Works ###')    
+# x = Medication(response)
+# print('--------------------------Med_taken:--------------------------\n', json.dumps(x.med_taken, indent = 2))
+# print('--------------------------Symptom:--------------------------\n', json.dumps(x.symptom, indent = 2))
+# print('--------------------------Effects:--------------------------\n', json.dumps(x.effect, indent = 2))  #Here
 
-    # y = Exercise(response)
-    # print('--------------------------Exercise: --------------------------\n', json.dumps(y.exercise, indent = 2))
-    # print('--------------------------Ex_time:--------------------------\n', json.dumps(y.ex_time, indent = 2))
+# y = Exercise(response)
+# print('--------------------------Exercise: --------------------------\n', json.dumps(y.exercise, indent = 2))
+# print('--------------------------Ex_time:--------------------------\n', json.dumps(y.ex_time, indent = 2))
 
-    # z = Food(response)
-    # print('--------------------------Food:--------------------------\n', json.dumps(z.food, indent = 2))
-    # print('--------------------------Food Effect:--------------------------\n',json.dumps((z.effect), indent=2))
+# z = Food(response)
+# print('--------------------------Food:--------------------------\n', json.dumps(z.food, indent = 2))
+# print('--------------------------Food Effect:--------------------------\n',json.dumps((z.effect), indent=2))
