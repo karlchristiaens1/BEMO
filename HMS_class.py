@@ -320,7 +320,7 @@ class Exercise:
         for i in range(len(res)):
             if res[i]['type'] == 'quantifiedBy'\
                 and res[i]['arguments'][0]['text'] == exercise_text\
-                and res[i]['arguments'][1]['arguments'][0]['type'] == 'TIME':
+                and res[i]['arguments'][1]['entities'][0]['type'] == 'TIME':
                 # EXERCISE quantifiedBy TIME, for specific exercise
                 time_text = res[i]['arguments'][1]['text']
                 specific_ex_time.append(time_text)
