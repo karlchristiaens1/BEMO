@@ -151,97 +151,14 @@ def action_call(action):
         accepted_strings_1 = {'one', 'first'}
         accepted_strings_2 = {'two', 'second'}
         accepted_strings_3 = {'three', 'third'}
-        #accepted_strings_4 = {'four', 'fourth'}
-        #accepted_strings_5 = {'five', 'fifth'}
-        #accepted_strings_6 = {'six', 'sixth'}
-        #accepted_strings_7 = {'seven', 'seventh'}
-        #accepted_strings_8 = {'eight', 'eight'}
-        #accepted_strings_9 = {'nine', 'nineth'}
-        #accepted_strings_10 = {'ten', 'tenth'}
-
-        # if pod_choice in accepted_strings_1:
-        #     apipodcast.convert_link_to_file(podcast_dict[0]['url'])
-        #     arec.audio_play('OneDrive - University College London/ELEC0036/IBM Project/Code/podcast.mp3')
-        # elif pod_choice in accepted_strings_2:
-        #     apipodcast.convert_link_to_file(podcast_dict[1]['url'])
-        #     arec.audio_play('OneDrive - University College London/ELEC0036/IBM Project/Code/podcast.mp3')
-        # elif pod_choice in accepted_strings_3:
-        #     apipodcast.convert_link_to_file(podcast_dict[2]['url'])
-        #     arec.audio_play('OneDrive - University College London/ELEC0036/IBM Project/Code/podcast.mp3')
-        # elif pod_choice in accepted_strings_4:
-        #     apipodcast.convert_link_to_file(podcast_dict[3]['url'])
-        #     arec.audio_play('OneDrive - University College London/ELEC0036/IBM Project/Code/podcast.mp3')
-        # elif pod_choice in accepted_strings_5:
-        #     apipodcast.convert_link_to_file(podcast_dict[4]['url'])
-        #     arec.audio_play('OneDrive - University College London/ELEC0036/IBM Project/Code/podcast.mp3')
-        # elif pod_choice in accepted_strings_6:
-        #     apipodcast.convert_link_to_file(podcast_dict[5]['url'])
-        #     arec.audio_play('OneDrive - University College London/ELEC0036/IBM Project/Code/podcast.mp3')
-        # elif pod_choice in accepted_strings_7:
-        #     apipodcast.convert_link_to_file(podcast_dict[6]['url'])
-        #     arec.audio_play('OneDrive - University College London/ELEC0036/IBM Project/Code/podcast.mp3')
-        # elif pod_choice in accepted_strings_8:
-        #     apipodcast.convert_link_to_file(podcast_dict[7]['url'])
-        #     arec.audio_play('OneDrive - University College London/ELEC0036/IBM Project/Code/podcast.mp3')
-        # elif pod_choice in accepted_strings_9:
-        #     apipodcast.convert_link_to_file(podcast_dict[8]['url'])
-        #     arec.audio_play('OneDrive - University College London/ELEC0036/IBM Project/Code/podcast.mp3')
-        # elif pod_choice in accepted_strings_10:
-        #     apipodcast.convert_link_to_file(podcast_dict[9]['url'])
-        #     arec.audio_play('OneDrive - University College London/ELEC0036/IBM Project/Code/podcast.mp3')
-        # else:
-        #     print("Error Happened")
-        
-        #I could make a function for this redundant code!
+               
+        #DOWNLOADING CORRECT PORDCASTS & PLAYING IT
         if get_pod_choice(pod_choice, accepted_strings_1):
             playing_podcast_file(0, podcast_dict)
-            #apipodcast.convert_link_to_file(podcast_dict[0]['url'])
-            #arec.audio_play2('OneDrive - University College London/ELEC0036/IBM Project/Code/command_play_podcast_3.wav')
-            #arec.audio_play('OneDrive - University College London/ELEC0036/IBM Project/Code/podcast.mp3')
         elif get_pod_choice(pod_choice, accepted_strings_2):
-            playing_podcast_file(1, podcast_dict)
-            #apipodcast.convert_link_to_file(podcast_dict[1]['url'])
-            #arec.audio_play2('OneDrive - University College London/ELEC0036/IBM Project/Code/command_play_podcast_3.wav')
-            #arec.audio_play('OneDrive - University College London/ELEC0036/IBM Project/Code/podcast.mp3')
+            playing_podcast_file(1, podcast_dict) 
         elif get_pod_choice(pod_choice, accepted_strings_3):
             playing_podcast_file(2, podcast_dict)
-            #apipodcast.convert_link_to_file(podcast_dict[2]['url'])
-            #arec.audio_play2('OneDrive - University College London/ELEC0036/IBM Project/Code/command_play_podcast_3.wav')
-            #arec.audio_play('OneDrive - University College London/ELEC0036/IBM Project/Code/podcast.mp3')
-        #elif get_pod_choice(pod_choice, accepted_strings_4):
-            #playing_podcast_file(3)
-            #apipodcast.convert_link_to_file(podcast_dict[3]['url'])
-            #arec.audio_play2('OneDrive - University College London/ELEC0036/IBM Project/Code/command_play_podcast_3.wav')
-            #arec.audio_play('OneDrive - University College London/ELEC0036/IBM Project/Code/podcast.mp3')
-        #elif get_pod_choice(pod_choice, accepted_strings_5):
-            #playing_podcast_file(4)
-            #apipodcast.convert_link_to_file(podcast_dict[4]['url'])
-            #arec.audio_play2('OneDrive - University College London/ELEC0036/IBM Project/Code/command_play_podcast_3.wav')
-            #arec.audio_play('OneDrive - University College London/ELEC0036/IBM Project/Code/podcast.mp3')
-        #elif get_pod_choice(pod_choice, accepted_strings_6):
-            #playing_podcast_file(5)
-            #apipodcast.convert_link_to_file(podcast_dict[5]['url'])
-            #arec.audio_play2('OneDrive - University College London/ELEC0036/IBM Project/Code/command_play_podcast_3.wav')
-            #arec.audio_play('OneDrive - University College London/ELEC0036/IBM Project/Code/podcast.mp3')
-        #elif get_pod_choice(pod_choice, accepted_strings_7):
-            #playing_podcast_file(6)
-            #apipodcast.convert_link_to_file(podcast_dict[6]['url'])
-            #arec.audio_play2('OneDrive - University College London/ELEC0036/IBM Project/Code/command_play_podcast_3.wav')
-            #arec.audio_play('OneDrive - University College London/ELEC0036/IBM Project/Code/podcast.mp3')
-        #elif get_pod_choice(pod_choice, accepted_strings_8):
-            #playing_podcast_file(7)           #apipodcast.convert_link_to_file(podcast_dict[7]['url'])
-            #arec.audio_play2('OneDrive - University College London/ELEC0036/IBM Project/Code/command_play_podcast_3.wav')
-            #arec.audio_play('OneDrive - University College London/ELEC0036/IBM Project/Code/podcast.mp3')
-        #elif #get_pod_choice(pod_choice, accepted_strings_9):
-            #playing_podcast_file(8)
-            #apipodcast.convert_link_to_file(podcast_dict[8]['url'])
-            #arec.audio_play2('OneDrive - University College London/ELEC0036/IBM Project/Code/command_play_podcast_3.wav')
-            #arec.audio_play('OneDrive - University College London/ELEC0036/IBM Project/Code/podcast.mp3')
-        #elif get_pod_choice(pod_choice, accepted_strings_10):
-            #playing_podcast_file(9)
-            #apipodcast.convert_link_to_file(podcast_dict[9]['url'])
-            #arec.audio_play2('OneDrive - University College London/ELEC0036/IBM Project/Code/command_play_podcast_3.wav')
-            #arec.audio_play('OneDrive - University College London/ELEC0036/IBM Project/Code/podcast.mp3')
         else:
             print("Error Happened")
     else:
@@ -260,9 +177,4 @@ def playing_podcast_file(i, podcast_dict):
 
 def main():
     command_process()
-
-# ~ if __name__ == "__main__":
-    # ~ main() 
-
-# arec.audio_play3(bemo_path + 'podcast.mp3')
 
