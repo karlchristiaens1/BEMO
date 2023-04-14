@@ -9,7 +9,7 @@ def get_time_today():
     # print ('Current Date: ' + str(Current_Date_Formatted))    
     return Current_Date_Formatted
 
-def get_time_last_month():
+def get_time_last_month():  #Time 21 days ago to be accurate
     # importing datetime module
     import datetime
     Previous_Date = datetime.datetime.today() - datetime.timedelta(days=21)
@@ -17,28 +17,17 @@ def get_time_last_month():
     # print ('Previous Date: ' + str(Previous_Date_Formatted))
     return Previous_Date_Formatted
 
-def get_categories():
-    #All Catergories:
-    categories = ["business", "entertainment", "general", "health", "science", "sports", "technology"]
-    return categories
+# def get_categories():
+#     #All Catergories:
+#     categories = ["business", "entertainment", "general", "health", "science", "sports", "technology"]
+#     return categories
 
-def news_call(category_of_interest):
-    # API_KEY = 'fe989672aff3498fa906c1538da30214'
-
+def news_call():
     from newsapi import NewsApiClient
-
-    # Init
+    # Initialising  
     newsapi = NewsApiClient(api_key=secrets.NEWS_API_APIKEY)
     
-    # /v2/top-headlines
-    # top_headlines = newsapi.get_top_headlines(q=category_of_interest,
-    #                                         # sources='bbc-news,the-verge',
-    #                                         # category=category_of_interest,
-    #                                         language='en')
-    #                                         # country='us, uk')
-
-    # # /v2/everything
-
+    #Calling API with pre-defined sources
     all_articles = newsapi.get_everything(q='',
                                           sources='bbc-news,the-verge',
                                           domains='bbc.co.uk,techcrunch.com',
@@ -49,28 +38,15 @@ def news_call(category_of_interest):
                                           page=2)
 
     # sources = newsapi.get_sources()
-
     return all_articles
 
-#Receive Subject
-#Predefine Sources
-#Can be altered
-#Date by default 1 month period
-#I need to get the current date, & look 1 month back
-# I can create an extra parameter for the amount of different news i want to display
-#For paramter there is a default (except q = "" empty)
 
-#In the main program, after speech to text, 
-# if news API is called, 
-# Update those parameters
-# Call parameters
-# Render Results
-
+# FOR TESTING PURPOSES
 #print(json.dumps(news_call(""), indent = 2))
 # print(get_time_today())
 # print(get_time_last_month())
 
-def tts_data_prep():
+def tts_data_prep(): # Preparing daily news for the text-to-speech service 
     news_data = news_call("")
     speach_string = ""
     for i in range(0,3):
